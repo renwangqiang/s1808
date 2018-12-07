@@ -1,0 +1,23 @@
+//引用那个 封装的SCSS
+//@import "mixins"
+//
+//
+////定义map集合
+//
+//.box{
+//  @include opacity(80);
+//}
+
+@import "mixins";
+
+
+
+
+/* 定义map集合 */
+.box {
+    width: 100px;
+    @include opacity(80);
+    height: 100px;
+    background: red;
+}
+

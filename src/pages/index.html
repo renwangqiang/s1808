@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--<style type="text/css">
+			.box{width: 100px;height: 100px; background: #000000;}
+			p .iconfont{font-size: 100px; color: red;}
+		</style>-->
+	<link rel="stylesheet" type="text/css" href="../styles/index.css"/>
+		
+	</head>
+	<body>
+		<div class="box">
+			
+		</div>
+		hello  自动监听嗡嗡嗡啊啊啊啊啊啊啊啊啊啊
+		<p>
+			<span class="iconfont icon-tixing"></span>
+		</p>
+	</body>
+	<!--<script src="../scripts/require.js" type="text/javascript" data-main= "index.js"></script>-->
+
+	<script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="../static/fonts/iconfont.css"/>
+	<script type="text/javascript">
+		
+		
+		$.ajax({
+			//这是要请求的本地地址,而实际上服务器收到请求会转发到拉勾网
+			//通过这种服务器代理的方式,在我自己的页面上一样可以请求到拉钩的数据
+			// pageNo=2 页码  pageSize=15 页条
+			url : "https://localhost:10002/listmore?pageNo=3&pageSize=15",
+			success : function(data){
+				console.log(data);
+			}
+		})
+	</script>
+
+</html>
