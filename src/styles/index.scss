@@ -7,17 +7,1298 @@
 //.box{
 //  @include opacity(80);
 //}
-
 @import "mixins";
-
-
-
-
-/* 定义map集合 */
-.box {
-    width: 100px;
-    @include opacity(80);
-    height: 100px;
-    background: red;
+.layout {
+    width: 1180px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
+#header {
+    width: 100%;
+    height: 129px;
+    .header-top {
+        height: 34px;
+        background: #F8E3DF;
+        .header-top-border {
+            width: 1180px;
+            margin: 0 auto;
+            height: 34px;
+            .header-topL {
+                width: 210px;
+                height: 30px;
+                float: left;
+                //              background: royalblue;
+                h1 {
+                    height: 34px;
+                    line-height: 34px;
+                    float: left;
+                    margin-right: 12px;
+                }
+                a {
+                    display: block;
+                    float: left;
+                    width: 24px;
+                    height: 34px;
+                    line-height: 34px;
+                    color: #333;
+                }
+            }
+            .header-topR {
+                width: 430px;
+                height: 34px;
+                float: right;
+                //              margin-right: 25px;
+                //              background: #666666;
+                ul {
+                    height: 34px;
+                    
+                    li {
+                        margin-left: 12px;
+                        float: left;
+                        line-height: 34px;
+                        color: #333333;
+                        position: relative;
+                        
+                        img {
+                            display: block;
+                            float: left;
+                            margin-top: 7px;
+                            margin-right: 10px;
+                        }
+                        .header-topR-div a {
+                            float: left;
+                        }
+                        .header_shop {
+                            width: 20px;
+                            text-align: center;
+                            display: block;
+                            float: left;
+                            font-size: 13px;
+                            color: #ff8a81;
+                            font-weight: bold;
+                        }
+                        .header-topR3 {
+                            float: left;
+                            margin-right: 3px;
+                        }
+                        .header_arrow {
+                            width: 5px;
+                            height: 4px;
+                            float: left;
+                            margin-top: 15px;
+                            background: url(http://img.zbird.cn/ww3/pubheaderfooter/icon_drop.png) no-repeat left top;
+                        }
+                        .show1 {
+                            width: 240px;
+                            top: 33px;
+                            height: auto;
+                            max-height: 399px;
+                            min-height: 59px;
+                            overflow: hidden auto;
+                            display: none;
+                            line-height: 59px;
+                            border: 1px solid #f8a89c;
+                            background-color: #FFF;
+                            text-align: left;
+                            position: absolute;
+                            padding-bottom: 0px;
+                            left: -1px;
+                            .wu {
+                                width: 100%;
+                                height: 61px;
+                                line-height: 61px;
+                                text-align: center;
+                            }
+                        }
+                        .show3 {
+                            width: 70px;
+                            height: auto;
+                            overflow: hidden;
+                            position: absolute;
+                            padding-bottom: 0px;
+                            left: -1px;
+                            top: 32px;
+                            border: 1px solid #f8a89c;
+                            background-color: #FFF;
+                            text-align: left;
+                            //                          z-index: 50;
+                            display: none;
+                            a {
+                                width: 100%;
+                                height: 25px;
+                                line-height: 25px;
+                                display: block;
+                                color: #686767;
+                                padding-left: 6px;
+                                text-align: left;
+                                &:hover {
+                                    color: #FF8A81;
+                                }
+                            }
+                        }
+                        .show5 {
+                            width: 232px;
+                            height: 156px;
+                            position: absolute;
+                            top: 30px;
+                            left: -178px;
+                            z-index: 50;
+                            border: 1px solid #f8a89c;
+                            display: none;
+                            margin-left: 1px;
+                            img {
+                                margin-top: 0;
+                            }
+                        }
+                        .left5 {
+                            padding-left: 5px;
+                        }
+                    }
+                    .li1 {
+                        height: 34px;
+                        border: #F8E3DF solid 1px;
+                        border-bottom: none;
+                        padding-left: 5px;
+                        a {
+                            &:hover {
+                                color: #FF8A81;
+                            }
+                        }
+                        &:hover {
+                            background: #fff;
+                            border: #FF8A81 solid 1px;
+                            border-bottom:0;
+                            
+                            .show1 {
+                                display: block;
+                            }
+                        }
+                    }
+                    .li3 {
+                        border: #F8E3DF solid 1px;
+                        padding-left: 5px;
+                        padding-right: 7px;
+                        border-bottom: none;
+                        &:hover {
+                            background: #fff;
+                            border: #FF8A81 solid 1px;
+                            .show3 {
+                                border-top: none;
+                                padding-top: 5px;
+                                display: block;
+                            }
+                        }
+                    }
+                    .li5 {
+                        border: #F8E3DF solid 1px;
+                        margin-right: -2px;
+                        border-bottom: none;
+                        padding-left: 3px;
+                        box-sizing: border-box;
+                        &:hover {
+                            height: 50px;
+                            background: #FFFFFF;
+                            border: #FF8A81 solid 1px;
+                            .show5 {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .header-bor {
+        z-index: 20;
+        background: #fbf2f1;
+        .header-border {
+            height: 95px;
+            width: 1180px;
+            margin: 0 auto;
+            .header-middle1 {
+                display: block;
+                float: left;
+                width: 163px;
+                height: 95px;
+                //              background: #333333;
+                a {
+                    display: block;
+                    img {
+                        margin-left: 35px;
+                        margin-top: 28px;
+                    }
+                }
+            }
+            .header-middle2 {
+                width: 166px;
+                height: 15px;
+                overflow: hidden;
+                float: left;
+                margin-left: 48px;
+                margin-top: 41px;
+                background: url(http://img.zbird.cn/ww3/pubheaderfooter/pcslogan.png) no-repeat left top;
+            }
+            .header-middleR {
+                width: 312px;
+                height: 95px;
+                float: right;
+                .header-middleR-border {
+                    height: 60px;
+                    margin-top: 31px;
+                    //                  background: red;
+                    .header-middleR1 {
+                        form {
+                            width: 198px;
+                            input {
+                                width: 146px;
+                                height: 16px;
+                                border: none;
+                                color: #999;
+                                font-size: 12px;
+                                line-height: 16px;
+                                padding: 7px 0 7px 10px;
+                                margin: 0;
+                                float: left;
+                                border-top: 1px solid #ccc;
+                                border-left: 1px solid #ccc;
+                                border-bottom: 1px solid #ccc;
+                            }
+                        }
+                        a {
+                            width: 40px;
+                            height: 30px;
+                            float: left;
+                            display: block;
+                            overflow: hidden;
+                            background: url(http://img.zbird.cn/ww3/pubheaderfooter/icon_ser.jpg) no-repeat left top!important;
+                            color: #fff !important;
+                            line-height: 30px;
+                            border-top: 1px solid #ccc;
+                            border-right: 1px solid #ccc;
+                            border-bottom: 1px solid #ccc;
+                        }
+                    }
+                    .yuyue {
+                        float: left;
+                        background: url(http://img.zbird.cn/ww3/pubheaderfooter/header_btn.jpg) center no-repeat;
+                        margin-left: 16px;
+                        width: 96px;
+                        height: 32px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#nav {
+    height: 33px;
+    background: #909090;
+    position: relative;
+    .nav-center {
+        width: 1180px;
+        margin: 0 auto;
+        .navL {
+            width: 679px;
+            float: left;
+            
+            ul {
+                li {
+                    float: left;
+                    width: 97px;
+                    text-align: center;
+                    line-height: 33px;
+                    
+                    &:hover {
+                        background: #FDB2A4;
+                        cursor: pointer;
+                        
+                    }
+                    a {
+                        font-size: 12px;
+                        color: #FFFFFF;
+                    }
+                    .snav_hide {
+                display: none;
+        background: url(http://img.zbird.cn/ww3/pubheaderfooter/snav_rept.png) top left repeat-x;
+        width: 100%;
+        position: absolute;
+        top: 33px;
+        left: 0px;
+        z-index: 90;
+        height: 361px;
+        .snav {
+            width: 1180px;
+            margin: 0 auto;
+            overflow: hidden;
+            position: relative;
+            .snav_title {
+                position: relative;
+                float: left;
+                width: 153px;
+                height: 305px;
+                ._t1 {
+                    position: absolute;
+                    color: #000;
+                    font-size: 24px;
+                    font-family: Arail, "宋体";
+                    left: 30px;
+                    top: 29px;
+                }
+                ._t2 {
+                    position: absolute;
+                    left: 30px;
+                    top: 63px;
+                    color: #666;
+                    letter-spacing: 1px;
+                    &:hover {
+                        color: #FF8A81;
+                    }
+                    
+                }
+                .snav_t {
+                    float: left;
+                    margin-top: 89px;
+                    text-align: left;
+                    padding-left: 30px;
+                    width: 150px;
+                    a {
+                        display: block;
+                        font-size: 12px;
+                        color: #666;
+                        line-height: 26px;
+                        letter-spacing: 1px;
+                        &:hover {
+                        color: #FF8A81;
+                    }
+                    }
+                }
+            }
+            .snav_r {
+                float: left;
+                margin-top: 89px;
+                text-align: left;
+                padding-left: 30px;
+                width: 150px;
+                a {
+                    display: block;
+                    font-size: 12px;
+                    color: #666;
+                    line-height: 26px;
+                    letter-spacing: 1px;
+                    &:hover {
+                        color: #FF8A81;
+                    }
+                }
+            }
+            .navline {
+                width: 1px;
+                height: 265px;
+                float: left;
+                background: #e5e5e5;
+                margin-top: 31px;
+                margin-left: 0px;
+            }
+            .pos {
+                position: absolute;
+                left: 350px;
+                &:hover {
+                        color: #FF8A81;
+                    }
+            }
+            .snav_tu {
+                float: right;
+                text-align: right;
+                padding-top: 31px;
+                a {
+                    padding-left: 16px;
+                    &:hover {
+                        color: #FF8A81;
+                    }
+                    img {
+                        padding: 0;
+                        margin: 0;
+                        border: 0;
+                    }
+                }
+            }
+        }
+    }
+                }
+
+                .active {
+                    background: #FDB2A4;
+                }
+            }
+        }
+        .navR {
+            width: 291px;
+            float: right;
+            li {
+                float: left;
+                width: 97px;
+                text-align: center;
+                line-height: 33px;
+                &:hover {
+                    background: #FDB2A4;
+                    cursor: pointer;
+                }
+                a {
+                    font-size: 12px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+    
+}
+
+//中间大图
+#bg1 {
+    height: 650px;
+    background: url(http://img.zbird.cn/ww3/huodong/2018/sdhd/1.jpg) top center no-repeat;
+    .bgt {
+        position: relative;
+        height: 650px;
+        .bg1gif {
+            width: 501px;
+            height: 473px;
+            position: absolute;
+            background: url(http://img.zbird.cn/ww3/huodong/2018/sdhd/bg1gif.gif) center center no-repeat;
+            left: 599px;
+            top: 140px;
+        }
+    }
+}
+
+#bg2 {
+    background: url(http://img.zbird.cn/ww3/huodong/2018/sdhd/2.jpg) top center no-repeat;
+    width: 100%;
+    height: 180px;
+    position: relative;
+}
+
+//轮播图
+#bg3 {
+    background: url(http://img.zbird.cn/ww3/huodong/2018/sdhd/3.jpg) top center no-repeat;
+    width: 100%;
+    height: 873px;
+    position: relative;
+    //  .bg3-center{
+    .swiper-container {
+        width: 1180px;
+        height: 540px;
+        //          background: #999999;
+        .swiper-wrapper {
+            .img1 {
+                width: 1180px;
+                float: left;
+                display: block;
+                width: 1180px;
+                height: 540px;
+                background: url(http://img.zbird.cn/ww3/huodong/2018/sdhd/an1/1.png) center center no-repeat;
+            }
+            .img2 {
+                display: block;
+                float: left;
+                width: 1180px;
+                height: 540px;
+                background: url(http://img.zbird.cn/ww3/huodong/2018/sdhd/an1/2.png) center center no-repeat;
+            }
+        }
+        .swiper-button-prev {
+            width: 30px;
+            height: 57px;
+            left: 0px;
+            background: url(http://img.zbird.cn/ww3/huodong/2018/sdhd/an1/prev.png) center center no-repeat;
+        }
+        .swiper-button-next {
+            width: 30px;
+            height: 57px;
+            right: 0px;
+            background: url(http://img.zbird.cn/ww3/huodong/2018/sdhd/an1/next.png) center center no-repeat;
+        }
+    }
+}
+
+#bg4 {
+    background: url(http://img.zbird.cn/ww3/huodong/2018/sdhd/bg4_1.jpg) top center no-repeat;
+    width: 100%;
+    height: 365px;
+    position: relative;
+    .bg4-center {
+        height: 365px;
+        display: block;
+        .bg41,
+        .bg42 {
+            width: 50%;
+            height: 100%;
+            display: inline-block;
+            cursor: pointer;
+            float: left;
+        }
+    }
+}
+.box {
+    	height: 881px;
+    	.center {
+    		width: 1180px;
+    		height: 826px;
+    		margin: 55px auto 0;
+    		.zi {
+    			color: #000;
+    			font-size: 24px;
+    			text-align: center;
+    			font-weight: normal;
+    			margin: 0;
+    			letter-spacing: 2px;
+    		}
+    		.c_nav {
+    			background: #feb8ae;
+    			text-align: center;
+    			margin-top: 45px;
+    			ul {
+    				width: 530px;
+    				height: 37px;
+    				margin: 0 auto;
+    				li {
+    					height: 37px;
+    					line-height: 37px;
+    					float: left;
+    					width: 106px;
+    					color: #FFFFFF;
+    					&:hover{
+                        cursor: pointer;
+                        
+                    }
+    				}
+    				.active{
+        color: black;
+    }
+    			}
+    		}
+    		.tab_img {
+    			height: 696px;
+    			margin-top: 20px;
+    			li{
+    				display: none;
+    				
+    				span {
+    					float: left;
+    					width: 700px;
+    					display:block;
+    					padding-right: 15px;
+    					.left_1 {
+    						margin-bottom: 13px;
+    						display: block;
+    					}
+    					.left_2 {
+    						display: block;
+    					}
+    				}
+    				.left_3 {
+    					display: block;
+    					float: right;
+    				}
+    			}
+    		}
+    	}
+    }
+#bg6 {
+    background: url(http://img.zbird.cn/ww3/huodong/2018/sdhd/6.jpg) top center no-repeat;
+    width: 100%;
+    height: 237px;
+    position: relative;
+}
+
+#bg7 {
+    background: url(http://img.zbird.cn/ww3/huodong/2018/sdhd/7.jpg) top center no-repeat;
+    width: 100%;
+    height: 316px;
+    position: relative;
+    text-align: left;
+    .layout {
+        height: 316px;
+        .bg7_1 {
+            display: inline-block;
+            width: 456px;
+            height: 142px;
+            margin-left: 125px;
+            background: url(http://img.zbird.cn/ww3/huodong/2018/sdhd/btn7_1.jpg) left center no-repeat;
+        }
+        .bg7_2 {
+            display: inline-block;
+            width: 456px;
+            height: 142px;
+            background: url(http://img.zbird.cn/ww3/huodong/2018/sdhd/btn7_2.jpg) left center no-repeat;
+        }
+    }
+}
+
+#bg8 {
+    background: url(http://img.zbird.cn/ww3/huodong/2018/sdhd/8.jpg) top center no-repeat;
+    width: 100%;
+    height: 815px;
+    position: relative;
+    .layout {
+        height: 815px;
+        .bg8_1 {
+            display: inline-block;
+            width: 257px;
+            height: 430px;
+            position: absolute;
+            left: 60px;
+            top: 320px;
+        }
+        .bg8_2 {
+            display: inline-block;
+            width: 257px;
+            height: 430px;
+            position: absolute;
+            left: 360px;
+            top: 320px;
+        }
+        .bg8_3 {
+            display: inline-block;
+            width: 330px;
+            height: 290px;
+            position: absolute;
+            left: 660px;
+            top: 200px;
+        }
+        .bg8_4 {
+            display: inline-block;
+            width: 330px;
+            height: 250px;
+            position: absolute;
+            left: 760px;
+            top: 490px;
+        }
+    }
+}
+
+
+.bg9 {
+    dt {
+//      background: #007AFF;
+        height: 32px;
+        padding-top: 40px;
+        line-height: 24px;
+        h2 {
+            float: left;
+            font-size: 24px;
+            color: #7e7e7e;
+        }
+        a {
+            float: right;
+            font-size: 12px;
+            color: #e8340e;
+            display: block;
+        }
+        i {
+            height: 16px;
+            float: right;
+            color: red;
+        }
+    }
+    .box1 {
+        width: 1213px;
+        height: 463px;
+        //      background: #333333;
+        padding-top: 10px;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            li {
+                width: 290px;
+                height: 450px;
+                position: relative;
+                background: #F4F3EF;
+//              &:hover{
+//                 
+//                      box-shadow: -1px -1px 20px #000000;
+////  border: 1px solid #000000;
+//                 
+//              }
+                .new {
+                    .big {
+                        width: 48px;
+                        height: 48px;
+                        border-radius: 50%;
+                        background: #F35C49;
+                        margin-top: 8px;
+                        margin-left: 8px;
+                        span {
+                            font-size: 14px;
+                            color: #FFFFFF;
+                            display: block;                           
+                            line-height: 48px;
+                            text-align: center;
+                        }
+                    }
+                    .small {
+                        width: 12px;
+                        height: 12px;
+                        background: #F35C49;
+                        border-radius: 50%;
+                        position: absolute;
+                        left: 53px;
+                        top: 53px;
+                    }
+                }
+                .figure {
+                    width: 290px;
+                    height: auto;
+                    position: absolute;
+                    top: 55px;
+//                  transition: transform 0.2s linear;
+//                  &:hover {
+//                      transform: translate3d(0, -6px, 0);                        
+//                  }
+                    img {
+                        width: 290px;
+                        height: 248px;
+                        display: block;
+                        border: 0;
+                    }
+                    .xinxi {
+                        height: 43px;
+                        text-align: center;
+                        line-height: 24px;
+                        margin-top: 10px;
+                        h2 {
+                            font-size: 16px;
+                            color: #222;
+                        }                       
+                    }
+                }
+                .price {
+                    width: 290px;
+                    height: 40px;
+                    text-align: center;
+                    position: absolute;
+                    top: 380px;
+                    span {
+                        color: #f35c49;
+                        margin-top: 15px;
+                        line-height: 32px;
+                        
+                        label {
+                            font-size: 16px;
+                            font-weight: bold;
+                        }
+                    }
+                }
+                .btn {
+                    position: absolute;
+                    bottom: 32px;
+                    width: 100%;
+                    text-align: center;
+                    display: none;
+                    a {
+                        width: 116px;
+                        height: 34px;
+                        line-height: 34px;
+                        text-align: center;
+                        border: none;
+                        border-radius: 16px;
+                        display: block;
+                    }
+                    .info {
+                        background: #fff;
+                        color: #f35c49;
+                        float: left;
+                        margin-left: 20px;
+                    }
+                    .sell {
+                        float: right;
+                        background: #f35c49 !important;
+                        color: #fff;
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#bg10 {
+    background: url(http://img.zbird.cn/ww3/huodong/2018/sdhd/10.jpg) top center no-repeat;
+    width: 100%;
+    height: 1048px;
+    position: relative;
+    .layout {
+        height: 1048px;
+        .bg10_1 {
+            display: inline-block;
+            width: 500px;
+            height: 200px;
+            position: absolute;
+            left: 150px;
+            top: 520px;
+        }
+        .bg10_2 {
+            display: inline-block;
+            width: 610px;
+            height: 200px;
+            position: absolute;
+            left: 80px;
+            top: 780px;
+        }
+        .bg10_3 {
+            display: inline-block;
+            width: 400px;
+            height: 500px;
+            position: absolute;
+            right: 78px;
+            top: 532px;
+        }
+    }
+}
+
+#bg11 {
+    background: url(http://img.zbird.cn/ww3/huodong/2018/sdhd/11.jpg) top center no-repeat;
+    width: 100%;
+    height: 1153px;
+    position: relative;
+    .layout {
+        height: 1153px;
+        .bg11_1 {
+            display: inline-block;
+            width: 490px;
+            height: 339px;
+            position: absolute;
+            left: 75px;
+            top: 520px;
+        }
+        .bg11_2 {
+            display: inline-block;
+            width: 390px;
+            height: 220px;
+            position: absolute;
+            left: 75px;
+            top: 859px;
+        }
+        .bg11_3 {
+            display: inline-block;
+            width: 410px;
+            height: 310px;
+            position: absolute;
+            left: 710px;
+            top: 492px;
+        }
+        .bg11_4 {
+            display: inline-block;
+            width: 530px;
+            height: 250px;
+            position: absolute;
+            left: 590px;
+            top: 815px;
+        }
+    }
+}
+
+#bg12 {
+    background: url(http://img.zbird.cn/ww3/huodong/2018/sdhd/12.jpg) top center no-repeat;
+    width: 100%;
+    height: 366px;
+    position: relative;
+    .layout {
+        height: 366px;
+        .bg12_1 {
+            display: inline-block;
+            width: 23.5%;
+            height: 45%;
+            margin-top: 140px;
+        }
+    }
+}
+
+#bg13 {
+    background: url(http://img.zbird.cn/ww3/huodong/2018/sdhd/13.jpg) top center no-repeat;
+    width: 100%;
+    height: 562px;
+    position: relative;
+}
+
+#db {
+    width: 1180px;
+    margin: 52px auto 0 auto;
+    position: relative;
+    .db_top {
+        background: url(http://img.zbird.cn/ww3/footermono/icon_top.png) no-repeat left center;
+        width: 52px;
+        height: 52px;
+        display: block;
+        position: absolute;
+        left: 565px;
+        top: -80px;
+    }
+    .left_c {
+        width: 1180px;
+        height: 442px;
+        float: left;
+        background: url(http://img.zbird.cn/ww3/footermono/city_bg.jpg) no-repeat;
+        .right {
+            width: 534px;
+            height: 352px;
+            float: right;
+            padding-top: 90px;
+            position: relative;
+            //  background: #333333;
+            ._t {
+                margin-bottom: 24px;
+                strong {
+                    display: block;
+                    font-size: 36px;
+                    font-family: "宋体";
+                    color: #000;
+                    font-weight: normal;
+                    text-align: center;
+                }
+            }
+            #shouji {
+                padding: 10px 20px;
+                width: 235px;
+                display: block;
+                margin: 0 auto;
+                border: none;
+                height: 14px;
+                line-height: 14px;
+            }
+            .city {
+                background: #FFFFFF;
+                padding-left: 22px;
+                box-sizing: border-box;
+                width: 275px;
+                height: 35px;
+                line-height: 35px;
+                margin-left: 129px;
+                margin-top: 12px;
+                position: relative;
+                span {
+                    position: absolute;
+                    top: 1px;
+                    right: 20px;
+                }
+            }
+            a {
+                background: #f6827a;
+                color: #fff;
+                width: 155px;
+                height: 34px;
+                display: block;
+                margin: 0 auto;
+                text-align: center;
+                line-height: 34px;
+                margin-top: 35px;
+            }
+        }
+    }
+}
+
+#footer-top {
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+    background: url(http://img.zbird.cn/ww3/footermono/footer_title.jpg) no-repeat center 35px;
+    clear: both;
+}
+
+#footer-center {
+    overflow: hidden;
+    padding: 20px 0 39px;
+    //  background: #000000;
+    height: 444px;
+    margin-top: 20px;
+    ul {
+        width: 1210px;
+        li {
+            float: left;
+            margin-right: 18px;
+        }
+    }
+}
+
+#footer-banner {
+    height: 66px;
+    background: #fdf2ec;
+    ul {
+        width: 1180px;
+        height: 66px;
+        margin: 0 auto;
+        background: url(http://img.zbird.cn/ww3/pubheaderfooter/footer_lnks.jpg) no-repeat;
+        li {
+            float: left;
+            height: 66px;
+            a {
+                display: block;
+                height: 66px;
+            }
+        }
+    }
+}
+
+#footer-nav {
+    height: auto;
+    overflow: hidden;
+    background: #fdf2ec;
+    clear: both;
+    .foot-nav {
+        height: 160px;
+        position: relative;
+        .nav-left {
+            width: 85px;
+            height: 90px;
+            float: left;
+            margin-left: 30px;
+            margin-top: 44px;
+            display: block;
+            background: url(http://img.zbird.cn/ww3/pubheaderfooter/logo85x90.jpg) no-repeat;
+        }
+        .nav-center {
+            float: left;
+            margin-top: 37px;
+            margin-left: 82px;
+            ul {
+                width: 144px;
+                height: auto;
+                overflow: hidden;
+                float: left;
+                li {
+                    float: left;
+                    span {
+                        width: 96px;
+                        height: 23px;
+                        display: block;
+                        color: #666666;
+                        font-size: 12px;
+                        text-align: left;
+                    }
+                    a {
+                        width: 96px;
+                        line-height: 22px;
+                        color: #999999;
+                        display: block;
+                        text-align: left;
+                        &:hover {
+                            color: #FF8A81;
+                        }
+                    }
+                }
+            }
+        }
+        .nav-right {
+            width: 214px;
+            height: 120px;
+            float: right;
+            margin-top: 30px;
+            margin-left: 6px;
+            background: url(http://img.zbird.cn/ww3/pubheaderfooter/web_code.jpg) no-repeat;
+            position: relative;
+            a {
+                width: 188px;
+                right: 0px;
+            }
+        }
+    }
+}
+
+#footer-border {
+    background: #fdf2ec;
+    dt {
+        width: 1180px;
+        margin: 0 auto;
+        text-align: left;
+        color: #999;
+        overflow: hidden;
+        .top {
+            text-align: center;
+            padding: 21px 0;
+            a {
+                margin-left: 46px;
+                background: url(http://img.zbird.cn/ww3/pubheaderfooter/fot_consult.jpg) left center no-repeat;
+                width: 488px;
+                height: 60px;
+                display: inline-block;
+            }
+        }
+        div {
+            width: 1180px;
+            height: auto;
+            overflow: hidden;
+            margin: 0 auto;
+            line-height: 36px;
+            text-align: center;
+            a {
+                line-height: 33px;
+                margin: 0;
+                padding: 0;
+                color: #999;
+                text-decoration: none;
+                span {
+                    padding: 0 8px 0 10px;
+                }
+            }
+        }
+    }
+    dd {
+        width: 612px;
+        margin: 0 auto;
+        padding-bottom: 90px;
+        color: #9FB1BA;
+        padding-left: 47px;
+        padding-top: 13px;
+        font-size: 0;
+        a {
+            img {
+                padding: 0;
+                margin: 0;
+                border: 0;
+            }
+            .jinghao {
+                transform: scale(0.65);
+                font-size: 6px;
+                color: #001b75;
+                padding: 0;
+                margin: 0;
+                text-decoration: none;
+                top: 20px;
+                left: 26px;
+                position: absolute;
+                cursor: pointer;
+                display: block;
+            }
+        }
+        .left {
+            margin-right: 5px;
+        }
+    }
+}
+
+#Pleft {
+    position: fixed;
+    top: 32%;
+    right: 0;
+    width: 67px;
+    .set_img {
+        background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/img.png) left center no-repeat;
+        width: 88px;
+        height: 95px;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: -94px;
+    }
+    .set_link1,
+    .set_link2,
+    .set_link3,
+    .set_link4,
+    .set_link5,
+    {
+        width: 67px;
+        height: 67px;
+        display: block;
+        margin-bottom: 1px;
+    }
+    .set_link1 {
+        background: red url(http://img.zbird.cn/ww3/pubheaderfooter/service/1.gif) left center no-repeat;
+        position: relative;
+        &:hover {
+            background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/1_2.gif) left center no-repeat;
+        }
+    }
+    .set_link2 {
+        background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/2.jpg) left center no-repeat;
+        text-align: center;
+        &:hover {
+            background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/2_2.jpg) left center no-repeat;
+        }
+        span {
+            color: #fff;
+            display: inline-block;
+            padding: 17px 0 0 0;
+        }
+    }
+    .set_link3 {
+        background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/3.jpg) left center no-repeat;
+        &:hover {
+            background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/3_2.jpg) left center no-repeat;
+        }
+    }
+    .set_link4 {
+        background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/4.jpg) left center no-repeat;
+        &:hover {
+            background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/4_2.jpg) left center no-repeat;
+        }
+    }
+    .set_link5 {
+        background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/5.jpg) left center no-repeat;
+        position: relative;
+    }
+}
+
+#gotop {
+    right: 15px;
+    bottom: 15px;
+    overflow: hidden;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    z-index: 1002;
+    background: url(http://img.zbird.cn/ww3/header/s_totop.jpg);
+    background-position: 0px -40px;
+    //  display: none;
+    cursor: pointer;
+}
+
+#xuanfu {
+    width: 146px;
+    height: 324px;
+    position: fixed;
+    left: 5px;
+    top: 50%;
+    margin-top: -162px;
+    z-index: 50;
+    .xuanfu_01,
+    .xuanfu_02,
+    .xuanfu_03,
+    .xuanfu_04,
+    .xuanfu_05 {
+        width: 100%;
+        height: 55px;
+        display: block;
+        overflow: hidden;
+    }
+    .xuanfu_01 {
+        height: 102px;
+        background: url(http://img.zbird.cn/ww3/huodong/2018/sdhd/nav1.png) no-repeat center top;
+        animation: proSaleRotate .5s infinite linear;
+        @keyframes proSaleRotate {
+            0% {
+                transform: rotate(-1.6deg);
+            }
+            50% {
+                transform: rotate(1.6deg);
+            }
+            100% {
+                transform: rotate(-1.6deg);
+            }
+        }
+    }
+    .xuanfu_02 {
+        background: url(http://img.zbird.cn/ww3/huodong/2018/sdhd/nav2.png) no-repeat center top;
+        margin-top: 8px;
+    }
+    .xuanfu_03 {
+        background: url(http://img.zbird.cn/ww3/huodong/2018/sdhd/nav2.png) no-repeat center -55px;
+    }
+    .xuanfu_04 {
+        background: url(http://img.zbird.cn/ww3/huodong/2018/sdhd/nav2.png) no-repeat center -110px;
+    }
+    .xuanfu_05 {
+        background: url(http://img.zbird.cn/ww3/huodong/2018/sdhd/nav2.png) no-repeat center bottom;
+    }
+}

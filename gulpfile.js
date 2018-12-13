@@ -16,20 +16,24 @@ gulp.task("copy",()=>{
 //})
 
 gulp.task("buildJS",()=>{
-	//只复制
+	//只复制	
 	gulp.src("./src/scripts/libs/*.js")
 	.pipe(gulp.dest("./dist/scripts/libs"))	//dext 目的地
 	// 编译压缩复制
 	gulp.src("./src/scripts/*.js")
 	.pipe(babel({
-            presets: ['env']
+            presets: ['@babel/env']
         }))
 	.pipe(uglify())
 	.pipe(gulp.dest("./dist/scripts"))
 });
 
+
+
+
 gulp.task("buildHTML",()=>{
 	gulp.src("./src/pages/*.html").pipe(gulp.dest("./dist/pages"));
+	gulp.src("./src/pages/*.js").pipe(gulp.dest("./dist/pages"));
 });
 
 gulp.task("buildCSS",()=>{
@@ -43,7 +47,7 @@ gulp.task("buildCSS",()=>{
 
 //静态图   字体文件
 gulp.task("buildstaticResource",()=>{
-	gulp.src("./src/static/**/*.*").pipe(gulp.dest("./dist"));
+	gulp.src("./src/static/**/*.*").pipe(gulp.dest("./dist/static"));
 })
 
 
@@ -56,6 +60,7 @@ gulp.task("buildstaticResource",()=>{
 gulp.task("watching",()=>{
 	gulp.watch("./src/**/*.scss",["buildCSS"]);
 	gulp.watch("./src/**/*.html",["buildHTML"]);
+	gulp.watch("./src/**/*.js",["buildHTML"]);
 	gulp.watch("./src/**/*.js",["buildJS"]);
 })
 //可是当
@@ -71,7 +76,7 @@ gulp.src('dist')  //改成src的目的，读取哪一个目录，作为服务器
 //    port:10002,	//修改端口号
       proxies:[		//服务器代理
 	      {
-	     	source: '/listmore',	//源地址
+	     	source: '/listmozre',	//源地址
 	      	target: 'https://m.lagou.com/listmore.json',
 	      	// 服务器
 	      }

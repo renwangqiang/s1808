@@ -1,0 +1,624 @@
+@charset "UTF-8";
+.layout {
+  width: 1180px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+input {
+  outline: none; }
+
+#header {
+  width: 100%;
+  height: 129px; }
+  #header .header-top {
+    height: 34px;
+    background: #F8E3DF; }
+    #header .header-top .header-top-border {
+      width: 1180px;
+      margin: 0 auto;
+      height: 34px; }
+      #header .header-top .header-top-border .header-topL {
+        width: 210px;
+        height: 30px;
+        float: left; }
+        #header .header-top .header-top-border .header-topL h1 {
+          height: 34px;
+          line-height: 34px;
+          float: left;
+          margin-right: 12px; }
+        #header .header-top .header-top-border .header-topL a {
+          display: block;
+          float: left;
+          width: 24px;
+          height: 34px;
+          line-height: 34px;
+          color: #333; }
+      #header .header-top .header-top-border .header-topR {
+        width: 430px;
+        height: 34px;
+        float: right; }
+        #header .header-top .header-top-border .header-topR ul {
+          height: 34px; }
+          #header .header-top .header-top-border .header-topR ul li {
+            margin-left: 12px;
+            float: left;
+            line-height: 34px;
+            color: #333333;
+            position: relative; }
+            #header .header-top .header-top-border .header-topR ul li img {
+              display: block;
+              float: left;
+              margin-top: 7px;
+              margin-right: 10px; }
+            #header .header-top .header-top-border .header-topR ul li .header-topR-div a {
+              float: left; }
+            #header .header-top .header-top-border .header-topR ul li .header_shop {
+              width: 20px;
+              text-align: center;
+              display: block;
+              float: left;
+              font-size: 13px;
+              color: #ff8a81;
+              font-weight: bold; }
+            #header .header-top .header-top-border .header-topR ul li .header-topR3 {
+              float: left;
+              margin-right: 3px; }
+            #header .header-top .header-top-border .header-topR ul li .header_arrow {
+              width: 5px;
+              height: 4px;
+              float: left;
+              margin-top: 15px;
+              background: url(http://img.zbird.cn/ww3/pubheaderfooter/icon_drop.png) no-repeat left top; }
+            #header .header-top .header-top-border .header-topR ul li .show1 {
+              width: 240px;
+              top: 33px;
+              height: auto;
+              max-height: 399px;
+              min-height: 59px;
+              overflow: hidden auto;
+              display: none;
+              line-height: 59px;
+              border: 1px solid #f8a89c;
+              background-color: #FFF;
+              text-align: left;
+              position: absolute;
+              padding-bottom: 0px;
+              left: -1px; }
+              #header .header-top .header-top-border .header-topR ul li .show1 .wu {
+                width: 100%;
+                height: 61px;
+                line-height: 61px;
+                text-align: center; }
+            #header .header-top .header-top-border .header-topR ul li .show3 {
+              width: 70px;
+              height: auto;
+              overflow: hidden;
+              position: absolute;
+              padding-bottom: 0px;
+              left: -1px;
+              top: 32px;
+              border: 1px solid #f8a89c;
+              background-color: #FFF;
+              text-align: left;
+              display: none; }
+              #header .header-top .header-top-border .header-topR ul li .show3 a {
+                width: 100%;
+                height: 25px;
+                line-height: 25px;
+                display: block;
+                color: #686767;
+                padding-left: 6px;
+                text-align: left; }
+                #header .header-top .header-top-border .header-topR ul li .show3 a:hover {
+                  color: #FF8A81; }
+            #header .header-top .header-top-border .header-topR ul li .show5 {
+              width: 232px;
+              height: 156px;
+              position: absolute;
+              top: 30px;
+              left: -178px;
+              z-index: 50;
+              border: 1px solid #f8a89c;
+              display: none;
+              margin-left: 1px; }
+              #header .header-top .header-top-border .header-topR ul li .show5 img {
+                margin-top: 0; }
+            #header .header-top .header-top-border .header-topR ul li .left5 {
+              padding-left: 5px; }
+          #header .header-top .header-top-border .header-topR ul .li1 {
+            height: 34px;
+            border: #F8E3DF solid 1px;
+            border-bottom: none;
+            padding-left: 5px; }
+            #header .header-top .header-top-border .header-topR ul .li1 a:hover {
+              color: #FF8A81; }
+            #header .header-top .header-top-border .header-topR ul .li1:hover {
+              background: #fff;
+              border: #FF8A81 solid 1px;
+              border-bottom: none; }
+              #header .header-top .header-top-border .header-topR ul .li1:hover .show1 {
+                display: block; }
+          #header .header-top .header-top-border .header-topR ul .li3 {
+            border: #F8E3DF solid 1px;
+            padding-left: 5px;
+            padding-right: 7px;
+            border-bottom: none; }
+            #header .header-top .header-top-border .header-topR ul .li3:hover {
+              background: #fff;
+              border: #FF8A81 solid 1px; }
+              #header .header-top .header-top-border .header-topR ul .li3:hover .show3 {
+                border-top: none;
+                padding-top: 5px;
+                display: block; }
+          #header .header-top .header-top-border .header-topR ul .li5 {
+            border: #F8E3DF solid 1px;
+            margin-right: -2px;
+            border-bottom: none;
+            padding-left: 3px;
+            box-sizing: border-box; }
+            #header .header-top .header-top-border .header-topR ul .li5:hover {
+              height: 50px;
+              background: #FFFFFF;
+              border: #FF8A81 solid 1px; }
+              #header .header-top .header-top-border .header-topR ul .li5:hover .show5 {
+                display: block; }
+  #header .header-bor {
+    z-index: 20;
+    background: #fbf2f1; }
+    #header .header-bor .header-border {
+      height: 95px;
+      width: 1180px;
+      margin: 0 auto; }
+      #header .header-bor .header-border .header-middle1 {
+        display: block;
+        float: left;
+        width: 163px;
+        height: 95px; }
+        #header .header-bor .header-border .header-middle1 a {
+          display: block; }
+          #header .header-bor .header-border .header-middle1 a img {
+            margin-left: 35px;
+            margin-top: 28px; }
+      #header .header-bor .header-border .header-middle2 {
+        width: 166px;
+        height: 15px;
+        overflow: hidden;
+        float: left;
+        margin-left: 48px;
+        margin-top: 41px;
+        background: url(http://img.zbird.cn/ww3/pubheaderfooter/pcslogan.png) no-repeat left top; }
+      #header .header-bor .header-border .header-middleR {
+        width: 312px;
+        height: 95px;
+        float: right; }
+        #header .header-bor .header-border .header-middleR .header-middleR-border {
+          height: 60px;
+          margin-top: 31px; }
+          #header .header-bor .header-border .header-middleR .header-middleR-border .header-middleR1 form {
+            width: 198px; }
+            #header .header-bor .header-border .header-middleR .header-middleR-border .header-middleR1 form input {
+              width: 146px;
+              height: 16px;
+              border: none;
+              color: #999;
+              font-size: 12px;
+              line-height: 16px;
+              padding: 7px 0 7px 10px;
+              margin: 0;
+              float: left;
+              border-top: 1px solid #ccc;
+              border-left: 1px solid #ccc;
+              border-bottom: 1px solid #ccc; }
+          #header .header-bor .header-border .header-middleR .header-middleR-border .header-middleR1 a {
+            width: 40px;
+            height: 30px;
+            float: left;
+            display: block;
+            overflow: hidden;
+            background: url(http://img.zbird.cn/ww3/pubheaderfooter/icon_ser.jpg) no-repeat left top !important;
+            color: #fff !important;
+            line-height: 30px;
+            border-top: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+            border-bottom: 1px solid #ccc; }
+          #header .header-bor .header-border .header-middleR .header-middleR-border .yuyue {
+            float: left;
+            background: url(http://img.zbird.cn/ww3/pubheaderfooter/header_btn.jpg) center no-repeat;
+            margin-left: 16px;
+            width: 96px;
+            height: 32px; }
+
+#nav {
+  height: 33px;
+  background: #909090;
+  position: relative; }
+  #nav .nav-center {
+    width: 1180px;
+    margin: 0 auto; }
+    #nav .nav-center .navL {
+      width: 679px;
+      float: left; }
+      #nav .nav-center .navL ul li {
+        float: left;
+        width: 97px;
+        text-align: center;
+        line-height: 33px; }
+        #nav .nav-center .navL ul li:hover {
+          background: #FDB2A4;
+          cursor: pointer; }
+        #nav .nav-center .navL ul li a {
+          font-size: 12px;
+          color: #FFFFFF; }
+      #nav .nav-center .navL ul .active {
+        background: #FDB2A4; }
+    #nav .nav-center .navR {
+      width: 291px;
+      float: right; }
+      #nav .nav-center .navR li {
+        float: left;
+        width: 97px;
+        text-align: center;
+        line-height: 33px; }
+        #nav .nav-center .navR li:hover {
+          background: #FDB2A4;
+          cursor: pointer; }
+        #nav .nav-center .navR li a {
+          font-size: 12px;
+          color: #FFFFFF; }
+
+/*--------------------登录-----------------*/
+#bg_new {
+  background: url(http://img.zbird.cn/ww3/auth/auth_bg_new.jpg) no-repeat center top;
+  width: 100%;
+  height: 601px;
+  /*overflow: hidden;*/
+  clear: both; }
+  #bg_new .layout {
+    height: 601px; }
+    #bg_new .layout .login-r {
+      width: 452px;
+      height: 636px;
+      float: right;
+      overflow: hidden;
+      position: relative; }
+      #bg_new .layout .login-r .main {
+        float: left;
+        width: 100%;
+        height: 510px;
+        position: relative;
+        overflow: hidden;
+        background: url(http://img.zbird.cn/ww3/auth/auth_main_login.jpg) no-repeat 38px 130px; }
+        #bg_new .layout .login-r .main .text1 {
+          width: auto;
+          height: 20px;
+          position: absolute;
+          left: 38px;
+          top: 95px;
+          color: #000;
+          font-family: "宋体";
+          font-size: 20px; }
+        #bg_new .layout .login-r .main .jihuo {
+          width: auto;
+          height: 20px;
+          position: absolute;
+          right: 50px;
+          top: 102px;
+          color: #333; }
+          #bg_new .layout .login-r .main .jihuo:hover a {
+            color: #FF8A81; }
+        #bg_new .layout .login-r .main #from-login {
+          position: absolute;
+          top: 152px;
+          width: 450px;
+          height: 210px; }
+          #bg_new .layout .login-r .main #from-login ul {
+            text-align: left;
+            margin: 24px 0 0 0;
+            padding-top: 1px; }
+            #bg_new .layout .login-r .main #from-login ul input {
+              outline: none;
+              border: none; }
+            #bg_new .layout .login-r .main #from-login ul li {
+              list-style-position: outside;
+              padding-left: 78px;
+              text-align: left;
+              font-size: 14px;
+              color: #999999;
+              height: 34px;
+              line-height: 34px;
+              overflow: hidden; }
+              #bg_new .layout .login-r .main #from-login ul li .inputStyle01 {
+                font-size: 12px;
+                color: #333333;
+                height: 34px;
+                line-height: normal;
+                line-height: 34px\9;
+                padding-left: 16px;
+                width: 267px;
+                margin: 0;
+                text-align: left;
+                overflow: hidden;
+                font-family: Arial, '宋体';
+                border: none; }
+            #bg_new .layout .login-r .main #from-login ul .tips {
+              height: 22px;
+              width: 310px;
+              font-size: 12px;
+              color: #666666;
+              line-height: 22px;
+              overflow: hidden; }
+            #bg_new .layout .login-r .main #from-login ul .aotologin {
+              height: 20px;
+              width: 360px;
+              padding: 0;
+              padding-top: 2px;
+              font-size: 12px;
+              font-family: "宋体";
+              color: #666666;
+              line-height: 16px;
+              overflow: hidden; }
+              #bg_new .layout .login-r .main #from-login ul .aotologin #login_phase {
+                width: 13px;
+                height: 13px;
+                float: left;
+                padding: 0;
+                margin-right: 10px;
+                margin-top: 2px;
+                margin-left: 77px;
+                cursor: pointer;
+                border: none;
+                overflow: hidden;
+                background: #FFFFFF url(http://img.zbird.cn/ww3/auth/login_phase.jpg) no-repeat left top; }
+              #bg_new .layout .login-r .main #from-login ul .aotologin span {
+                font-family: "宋体";
+                float: left;
+                color: #666666; }
+              #bg_new .layout .login-r .main #from-login ul .aotologin a {
+                font-family: "宋体";
+                color: #666666;
+                float: right;
+                text-decoration: none; }
+            #bg_new .layout .login-r .main #from-login ul .clearHeight {
+              width: 100%;
+              height: 15px;
+              overflow: hidden;
+              clear: both; }
+            #bg_new .layout .login-r .main #from-login ul .sumbit {
+              height: 40px;
+              width: 285px;
+              padding: 0;
+              font-size: 12px;
+              margin-left: 77px;
+              color: #666666;
+              line-height: 40px;
+              overflow: hidden; }
+              #bg_new .layout .login-r .main #from-login ul .sumbit #btn {
+                width: 283px;
+                height: 34px;
+                line-height: 34px;
+                text-align: center;
+                display: block;
+                padding: 0;
+                color: #fff;
+                margin: 0 auto;
+                background: #ff8a81;
+                cursor: pointer; }
+        #bg_new .layout .login-r .main .height {
+          width: 100%;
+          height: 45px;
+          overflow: hidden;
+          position: absolute;
+          top: 362px;
+          clear: both; }
+        #bg_new .layout .login-r .main .dianji {
+          width: 452px;
+          position: absolute;
+          top: 430px;
+          left: 50px; }
+          #bg_new .layout .login-r .main .dianji .qq,
+          #bg_new .layout .login-r .main .dianji .wx,
+          #bg_new .layout .login-r .main .dianji .sina,
+          #bg_new .layout .login-r .main .dianji .zfb {
+            width: 46px;
+            height: 46px;
+            float: left;
+            display: block;
+            margin-left: 32px; }
+          #bg_new .layout .login-r .main .dianji .qq {
+            background: url(http://img.zbird.cn/ww3/auth/qq-btn.jpg) no-repeat left top; }
+          #bg_new .layout .login-r .main .dianji .wx {
+            background: url(http://img.zbird.cn/ww3/auth/weixin-btn.jpg) no-repeat left top; }
+          #bg_new .layout .login-r .main .dianji .sina {
+            background: url(http://img.zbird.cn/ww3/auth/sina-btn.jpg) no-repeat left top; }
+          #bg_new .layout .login-r .main .dianji .zfb {
+            background: url(http://img.zbird.cn/ww3/auth/zhifubao-btn.jpg) no-repeat left top; }
+
+/*---------------底部------------*/
+#footer-banner {
+  height: 66px;
+  background: #fdf2ec; }
+  #footer-banner ul {
+    width: 1180px;
+    height: 66px;
+    margin: 0 auto;
+    background: url(http://img.zbird.cn/ww3/pubheaderfooter/footer_lnks.jpg) no-repeat; }
+    #footer-banner ul li {
+      float: left;
+      height: 66px; }
+      #footer-banner ul li a {
+        display: block;
+        height: 66px; }
+
+#footer-nav {
+  height: auto;
+  overflow: hidden;
+  background: #fdf2ec;
+  clear: both; }
+  #footer-nav .foot-nav {
+    height: 160px;
+    position: relative; }
+    #footer-nav .foot-nav .nav-left {
+      width: 85px;
+      height: 90px;
+      float: left;
+      margin-left: 30px;
+      margin-top: 44px;
+      display: block;
+      background: url(http://img.zbird.cn/ww3/pubheaderfooter/logo85x90.jpg) no-repeat; }
+    #footer-nav .foot-nav .nav-center {
+      float: left;
+      margin-top: 37px;
+      margin-left: 82px; }
+      #footer-nav .foot-nav .nav-center ul {
+        width: 144px;
+        height: auto;
+        height: 133px;
+        /*overflow: hidden;*/
+        float: left; }
+        #footer-nav .foot-nav .nav-center ul li {
+          float: left; }
+          #footer-nav .foot-nav .nav-center ul li span {
+            width: 96px;
+            height: 23px;
+            display: block;
+            color: #666666;
+            font-size: 12px;
+            text-align: left; }
+          #footer-nav .foot-nav .nav-center ul li a {
+            width: 96px;
+            line-height: 22px;
+            color: #999999;
+            display: block;
+            text-align: left; }
+            #footer-nav .foot-nav .nav-center ul li a:hover {
+              color: #FF8A81; }
+    #footer-nav .foot-nav .nav-right {
+      width: 214px;
+      height: 120px;
+      float: right;
+      margin-top: 30px;
+      margin-left: 6px;
+      background: url(http://img.zbird.cn/ww3/pubheaderfooter/web_code.jpg) no-repeat;
+      position: relative; }
+      #footer-nav .foot-nav .nav-right a {
+        width: 188px;
+        right: 0px; }
+
+#footer-border {
+  background: #fdf2ec; }
+  #footer-border dt {
+    width: 1180px;
+    margin: 0 auto;
+    text-align: left;
+    color: #999;
+    overflow: hidden; }
+    #footer-border dt .top {
+      text-align: center;
+      padding: 21px 0; }
+      #footer-border dt .top a {
+        margin-left: 46px;
+        background: url(http://img.zbird.cn/ww3/pubheaderfooter/fot_consult.jpg) left center no-repeat;
+        width: 488px;
+        height: 60px;
+        display: inline-block; }
+    #footer-border dt div {
+      width: 1180px;
+      height: auto;
+      overflow: hidden;
+      margin: 0 auto;
+      line-height: 36px;
+      text-align: center; }
+      #footer-border dt div a {
+        line-height: 33px;
+        margin: 0;
+        padding: 0;
+        color: #999;
+        text-decoration: none; }
+        #footer-border dt div a span {
+          padding: 0 8px 0 10px; }
+  #footer-border dd {
+    width: 612px;
+    margin: 0 auto;
+    padding-bottom: 90px;
+    color: #9FB1BA;
+    padding-left: 47px;
+    padding-top: 13px;
+    font-size: 0; }
+    #footer-border dd a img {
+      padding: 0;
+      margin: 0;
+      border: 0; }
+    #footer-border dd a .jinghao {
+      transform: scale(0.65);
+      font-size: 6px;
+      color: #001b75;
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+      top: 20px;
+      left: 26px;
+      position: absolute;
+      cursor: pointer;
+      display: block; }
+    #footer-border dd .left {
+      margin-right: 5px; }
+
+#Pleft {
+  position: fixed;
+  top: 32%;
+  right: 0;
+  width: 67px; }
+  #Pleft .set_img {
+    background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/img.png) left center no-repeat;
+    width: 88px;
+    height: 95px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -94px; }
+  #Pleft .set_link1,
+  #Pleft .set_link2,
+  #Pleft .set_link3,
+  #Pleft .set_link4,
+  #Pleft .set_link5 {
+    width: 67px;
+    height: 67px;
+    display: block;
+    margin-bottom: 1px; }
+  #Pleft .set_link1 {
+    background: red url(http://img.zbird.cn/ww3/pubheaderfooter/service/1.gif) left center no-repeat;
+    position: relative; }
+    #Pleft .set_link1:hover {
+      background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/1_2.gif) left center no-repeat; }
+  #Pleft .set_link2 {
+    background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/2.jpg) left center no-repeat;
+    text-align: center; }
+    #Pleft .set_link2:hover {
+      background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/2_2.jpg) left center no-repeat; }
+    #Pleft .set_link2 span {
+      color: #fff;
+      display: inline-block;
+      padding: 17px 0 0 0; }
+  #Pleft .set_link3 {
+    background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/3.jpg) left center no-repeat; }
+    #Pleft .set_link3:hover {
+      background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/3_2.jpg) left center no-repeat; }
+  #Pleft .set_link4 {
+    background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/4.jpg) left center no-repeat; }
+    #Pleft .set_link4:hover {
+      background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/4_2.jpg) left center no-repeat; }
+  #Pleft .set_link5 {
+    background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/5.jpg) left center no-repeat;
+    position: relative; }
+
+#gotop {
+  right: 15px;
+  bottom: 15px;
+  overflow: hidden;
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  z-index: 1002;
+  background: url(http://img.zbird.cn/ww3/header/s_totop.jpg);
+  background-position: 0px -40px;
+  cursor: pointer; }

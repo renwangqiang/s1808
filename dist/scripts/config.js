@@ -1,0 +1,1 @@
+"use strict";requirejs.config({paths:{jquery:"../scripts/libs/jquery.min",swiper:"../scripts/libs/swiper.min",common:"../scripts/common",fontscroll:"../scripts/fontscroll"}});

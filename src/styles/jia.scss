@@ -1,0 +1,13 @@
+ @import "mixins";
+
+.layout{
+    height: 600px;
+}
+.swiper-pagination{
+    span{
+        width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    }
+    
+}

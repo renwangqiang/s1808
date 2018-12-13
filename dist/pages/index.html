@@ -3,38 +3,765 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
-		<!--<style type="text/css">
-			.box{width: 100px;height: 100px; background: #000000;}
-			p .iconfont{font-size: 100px; color: red;}
-		</style>-->
 	<link rel="stylesheet" type="text/css" href="../styles/index.css"/>
-		
+	<link rel="stylesheet" type="text/css" href="../static/fonts/iconfont.css"/>
+	<link rel="stylesheet" type="text/css" href="../styles/swiper.css"/>
+	<link rel="stylesheet" type="text/css" href="../styles/public.css"/>
 	</head>
 	<body>
-		<div class="box">
+		<!--header开始-->
+		<div id="header">
+		
+			<div class="header-top">
+				<div class="header-top-border">
+					<div class="header-topL">
+						<h1>欢迎进入钻石小鸟官网</h1>
+						<a style="margin: 0 10px 0 10px" href="denglu.html">登录</a>
+						<a style="margin-left: 10px;" href="zhuce.html">注册</a>
+					</div>
+					<div class="header-topR">
+						<ul>
+							<li class="li1" style="width: 105px;">
+								
+									<img src="http://img.zbird.cn/ww3/pubheaderfooter/header_box.png"/>							
+								<div class="header-topR-div">
+									<a href="#">购物车</a>
+									<span class="header_shop">0</span>
+									<span class="header_arrow"></span>
+								</div>
+								
+								
+								<div class="show1">
+									<div class="wu">
+										购物车中无商品
+									</div>
+								</div>
+							</li>
+							<li style="width: 58px;"><a href="#">我的订单</a></li>
+							<li class="li3" style="width: 58px;">
+								<div class="header-topR3">
+									<a href="#">我的鸟巢</a>
+								</div>								
+								<span class="header_arrow"></span>
+								<div class="show3">
+									<a href="#">订单查询</a>
+									<a href="#">售后服务</a>
+									<a href="#">积分换礼</a>
+								</div>
+							</li>
+							<li style="width: 58px;"><a href="#">钻石课堂</a></li>
+							<li class="li5" style="width: 58px;">
+								<a href="#" class="left">手机官网</a>
+								<div class="show5">
+									<img src="http://img.zbird.cn/ww3/pubheaderfooter/code_wechat.jpg" width="232" height="156"/>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="header-bor">							
+				<div class="header-border">
+					<div class="header-middle1">
+						<a href="#"><img src="http://img.zbird.cn/picdb/555/518/e7d95bd4f523b9d296421613e6267360.png"/></a>
+					</div>
+					
+					<div class="header-middle2">
+						
+					</div>
+					<div class="header-middleR">
+						<div class="header-middleR-border">
+							<div class="header-middleR1">
+								<form>
+									<input type="text" name="txt" id="txt" value=""  placeholder="戒托"/>
+									<a href="#">a</a>
+								</form>
+							</div>
+						
+							<a href="#" class="yuyue"></a>
+						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="nav">
+			<div class="nav-center">
+				<div class="navL">					
+					<ul>
+						<li class="active">
+							<a href="#">首页</a>
+						</li>
+						<li class="zuan">
+							<a href="#">钻石</a>
+							<div class="snav_hide aaaa">
+						<div class="snav">
+							<div class="snav_title">
+								<a href="#" class="_t1">钻石</a>
+								<a href="#" class="_t2">探索全部钻石</a>
+								<div class="snav_t">
+									<a href="#">30分裸钻</a>
+									<a href="#">50分裸钻</a>
+									<a href="#">70分裸钻</a>
+									<a href="#">克拉钻</a>
+									<a href="#">海淘钻石 立省15%</a>
+									<a href="#">北极光钻石</a>
+									<a href="#">FireCushion钻石</a>
+								</div>
+							</div>
+							<div class="snav_r">
+								<a href="#">圆形</a>
+								<a href="#">公主方</a>
+								<a href="#">祖母绿</a>
+								<a href="#">橄榄形</a>
+								<a href="#">椭圆形</a>
+								<a href="#">梨形</a>
+								<a href="#">心形</a>
+								<a href="#"></a>
+							</div>
+							<div class="navline"></div>
+							<div class="snav_r pos">
+								<a href="#">定制一款钻戒</a>
+								<a href="#">定制一款吊坠</a>
+								<a href="#">钻石4C知识</a>
+								<a href="#">钻石其他参数如何查看</a>
+								<a href="#">钻石证书知识</a>
+								<a href="#">甄选特惠裸钻专区</a>
+								<a href="#">戒指戴法</a>
+							</div>
+							<div class="snav_tu">
+								<a href="#">
+									<img src="http://imu.zbird.cn/431/30/43130_1" width="611" height="262"/>
+								</a>
+							</div>
+						</div>
+					</div>
+						</li>
+						<li><a href="#">婚戒</a>
+							<div class="snav_hide aaaa">
+						<div class="snav">
+							<div class="snav_title">
+								<a href="#" class="_t1">婚戒</a>
+								<a href="#" class="_t2">探索全部钻石</a>
+								<div class="snav_t">
+									<a href="#">30分裸钻</a>
+									<a href="#">50分裸钻</a>
+									<a href="#">70分裸钻</a>
+									<a href="#">克拉钻</a>
+									<a href="#">海淘钻石 立省15%</a>
+									<a href="#">北极光钻石</a>
+									<a href="#">FireCushion钻石</a>
+								</div>
+							</div>
+							<div class="snav_r">
+								<a href="#">圆形</a>
+								<a href="#">公主方</a>
+								<a href="#">祖母绿</a>
+								<a href="#">橄榄形</a>
+								<a href="#">椭圆形</a>
+								<a href="#">梨形</a>
+								<a href="#">心形</a>
+								<a href="#"></a>
+							</div>
+							<div class="navline"></div>
+							<div class="snav_r pos">
+								<a href="#">定制一款钻戒</a>
+								<a href="#">定制一款吊坠</a>
+								<a href="#">钻石4C知识</a>
+								<a href="#">钻石其他参数如何查看</a>
+								<a href="#">钻石证书知识</a>
+								<a href="#">甄选特惠裸钻专区</a>
+								<a href="#">戒指戴法</a>
+							</div>
+							<div class="snav_tu">
+								<a href="#">
+									<img src="http://imu.zbird.cn/431/30/43130_1" width="611" height="262"/>
+								</a>
+							</div>
+						</div>
+					</div>
+						</li>
+						<li><a href="#">对戒</a>
+							<div class="snav_hide aaaa">
+						<div class="snav">
+							<div class="snav_title">
+								<a href="#" class="_t1">对戒</a>
+								<a href="#" class="_t2">探索全部钻石</a>
+								<div class="snav_t">
+									<a href="#">30分裸钻</a>
+									<a href="#">50分裸钻</a>
+									<a href="#">70分裸钻</a>
+									<a href="#">克拉钻</a>
+									<a href="#">海淘钻石 立省15%</a>
+									<a href="#">北极光钻石</a>
+									<a href="#">FireCushion钻石</a>
+								</div>
+							</div>
+							<div class="snav_r">
+								<a href="#">圆形</a>
+								<a href="#">公主方</a>
+								<a href="#">祖母绿</a>
+								<a href="#">橄榄形</a>
+								<a href="#">椭圆形</a>
+								<a href="#">梨形</a>
+								<a href="#">心形</a>
+								<a href="#"></a>
+							</div>
+							<div class="navline"></div>
+							<div class="snav_r pos">
+								<a href="#">定制一款钻戒</a>
+								<a href="#">定制一款吊坠</a>
+								<a href="#">钻石4C知识</a>
+								<a href="#">钻石其他参数如何查看</a>
+								<a href="#">钻石证书知识</a>
+								<a href="#">甄选特惠裸钻专区</a>
+								<a href="#">戒指戴法</a>
+							</div>
+							<div class="snav_tu">
+								<a href="#">
+									<img src="http://imu.zbird.cn/431/30/43130_1" width="611" height="262"/>
+								</a>
+							</div>
+						</div>
+					</div>
+						</li>
+						<li><a href="#">配饰</a>
+							<div class="snav_hide aaaa">
+						<div class="snav">
+							<div class="snav_title">
+								<a href="#" class="_t1">配饰</a>
+								<a href="#" class="_t2">探索全部钻石</a>
+								<div class="snav_t">
+									<a href="#">30分裸钻</a>
+									<a href="#">50分裸钻</a>
+									<a href="#">70分裸钻</a>
+									<a href="#">克拉钻</a>
+									<a href="#">海淘钻石 立省15%</a>
+									<a href="#">北极光钻石</a>
+									<a href="#">FireCushion钻石</a>
+								</div>
+							</div>
+							<div class="snav_r">
+								<a href="#">圆形</a>
+								<a href="#">公主方</a>
+								<a href="#">祖母绿</a>
+								<a href="#">橄榄形</a>
+								<a href="#">椭圆形</a>
+								<a href="#">梨形</a>
+								<a href="#">心形</a>
+								<a href="#"></a>
+							</div>
+							<div class="navline"></div>
+							<div class="snav_r pos">
+								<a href="#">定制一款钻戒</a>
+								<a href="#">定制一款吊坠</a>
+								<a href="#">钻石4C知识</a>
+								<a href="#">钻石其他参数如何查看</a>
+								<a href="#">钻石证书知识</a>
+								<a href="#">甄选特惠裸钻专区</a>
+								<a href="#">戒指戴法</a>
+							</div>
+							<div class="snav_tu">
+								<a href="#">
+									<img src="http://imu.zbird.cn/431/30/43130_1" width="611" height="262"/>
+								</a>
+							</div>
+						</div>
+					</div>
+						</li>
+						<li><a href="#">定制</a>
+							<div class="snav_hide aaaa">
+						<div class="snav">
+							<div class="snav_title">
+								<a href="#" class="_t1">定制</a>
+								<a href="#" class="_t2">探索全部钻石</a>
+								<div class="snav_t">
+									<a href="#">30分裸钻</a>
+									<a href="#">50分裸钻</a>
+									<a href="#">70分裸钻</a>
+									<a href="#">克拉钻</a>
+									<a href="#">海淘钻石 立省15%</a>
+									<a href="#">北极光钻石</a>
+									<a href="#">FireCushion钻石</a>
+								</div>
+							</div>
+							<div class="snav_r">
+								<a href="#">圆形</a>
+								<a href="#">公主方</a>
+								<a href="#">祖母绿</a>
+								<a href="#">橄榄形</a>
+								<a href="#">椭圆形</a>
+								<a href="#">梨形</a>
+								<a href="#">心形</a>
+								<a href="#"></a>
+							</div>
+							<div class="navline"></div>
+							<div class="snav_r pos">
+								<a href="#">定制一款钻戒</a>
+								<a href="#">定制一款吊坠</a>
+								<a href="#">钻石4C知识</a>
+								<a href="#">钻石其他参数如何查看</a>
+								<a href="#">钻石证书知识</a>
+								<a href="#">甄选特惠裸钻专区</a>
+								<a href="#">戒指戴法</a>
+							</div>
+							<div class="snav_tu">
+								<a href="#">
+									<img src="http://imu.zbird.cn/431/30/43130_1" width="611" height="262"/>
+								</a>
+							</div>
+						</div>
+					</div>
+						</li>
+						<li><a href="#">体验中心</a>
+							<div class="snav_hide aaaa">
+						<div class="snav">
+							<div class="snav_title">
+								<a href="#" class="_t1">体验中心</a>
+								<a href="#" class="_t2">探索体验中心</a>
+								<div class="snav_t">
+									<a href="#">30分裸钻</a>
+									<a href="#">50分裸钻</a>
+									<a href="#">70分裸钻</a>
+									<a href="#">克拉钻</a>
+									<a href="#">海淘钻石 立省15%</a>
+									<a href="#">北极光钻石</a>
+									<a href="#">FireCushion钻石</a>
+								</div>
+							</div>
+							<div class="snav_r">
+								<a href="#">圆形</a>
+								<a href="#">公主方</a>
+								<a href="#">祖母绿</a>
+								<a href="#">橄榄形</a>
+								<a href="#">椭圆形</a>
+								<a href="#">梨形</a>
+								<a href="#">心形</a>
+								<a href="#"></a>
+							</div>
+							<div class="navline"></div>
+							<div class="snav_r pos">
+								<a href="#">定制一款钻戒</a>
+								<a href="#">定制一款吊坠</a>
+								<a href="#">钻石4C知识</a>
+								<a href="#">钻石其他参数如何查看</a>
+								<a href="#">钻石证书知识</a>
+								<a href="#">甄选特惠裸钻专区</a>
+								<a href="#">戒指戴法</a>
+							</div>
+							<div class="snav_tu">
+								<a href="#">
+									<img src="http://imu.zbird.cn/431/30/43130_1" width="611" height="262"/>
+								</a>
+							</div>
+						</div>
+					</div>
+						</li>
+					</ul>					
+				</div>
+				
+				<div class="navR">
+					<ul>
+						<li><a href="#">商务加盟</a></li>
+						<li><a href="#">品牌故事</a></li>
+						<li><a href="#">鸟巢论坛</a></li>
+					</ul>
+				</div>
+				
+			</div>
 			
 		</div>
-		hello  自动监听嗡嗡嗡啊啊啊啊啊啊啊啊啊啊
-		<p>
-			<span class="iconfont icon-tixing"></span>
-		</p>
+		<div id="bg1">
+			<div class="bgt layout">
+				<div class="bg1gif"></div>
+			</div>			
+		</div>
+		<div id="bg2">
+			
+		</div>
+		
+		<div id="bg3">
+			<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide box"><div class="img1"><a href="#"></a></div></div>
+			        <div class="swiper-slide box"><div class="img2"><a href="#"></a></div></div>
+			    </div>
+			    <div class="swiper-button-prev"></div><!--左箭头-->
+			    <div class="swiper-button-next"</div><!--右箭头-->
+			</div>		
+		</div>
+		
+		<div id="bg4">
+			<div class="bg4-center layout">
+				<div class="bg41"></div>
+				<div class="bg42"></div>
+			</div>
+		</div>
+		<div class="box">
+			<div class="center">
+				<h2 class="zi">系列产品</h2>
+				<div class="c_nav layout">
+					<ul class="tab">
+						<li class="active">推荐</li>
+						<li>钻石</li>
+						<li>婚戒</li>
+						<li>对戒</li>
+						<li>配饰</li>
+					</ul>
+				</div>
+				<ul class="tab_img">
+					<li style="display: block;">
+						<span>
+						<a href="#" class="left_1">
+							<img src="http://im0.zbird.cn/picdb/555/904/4638fe6d50bf7aa4076a4cc18e6e4f7e.jpg"/>
+						</a>
+						<a href="#" class="left_2">
+							<img src="http://im1.zbird.cn/picdb/555/904/48f5105f3ddcd7567f1105eb2ce12ecc.jpg"/>
+						</a>
+						</span>
+						<a href="#" class="left_3">
+							<img src="http://img.zbird.cn/picdb/555/904/dc38df7a8b40b8ef6a1480bebcbb2ec6.jpg"/>
+						</a>
+					</li>
+					<li>
+						<span>
+						<a href="#" class="left_1">
+							<img src="http://im1.zbird.cn/picdb/555/904/04fe6f016c159c9e53978c7df692383d.jpg"/>
+						</a>
+						<a href="#" class="left_2">
+							<img src="http://img.zbird.cn/picdb/555/904/c60c8bc3ffcfced1b09b4c4769976c2a.jpg"/>
+						</a>
+						</span>
+						<a href="#" class="left_3">
+							<img src="http://im1.zbird.cn/picdb/555/904/3de52665bd65b6825c204edb61db943b.jpg"/>
+						</a>
+					</li>
+					<li>
+						<span>
+						<a href="#" class="left_1">
+							<img src="http://im1.zbird.cn/picdb/555/904/04fe6f016c159c9e53978c7df692383d.jpg"/>
+						</a>
+						<a href="#" class="left_2">
+							<img src="http://im1.zbird.cn/picdb/555/904/48f5105f3ddcd7567f1105eb2ce12ecc.jpg"/>
+						</a>
+						</span>
+						<a href="#" class="left_3">
+							<img src="http://img.zbird.cn/picdb/555/904/dc38df7a8b40b8ef6a1480bebcbb2ec6.jpg"/>
+						</a>
+					</li>
+					<li>
+						<span>
+						<a href="#" class="left_1">
+							<img src="http://img.zbird.cn/picdb/555/904/66458677312a3fbd02178328d9e35377.jpg"/>
+						</a>
+						<a href="#" class="left_2">
+							<img src="http://im1.zbird.cn/picdb/555/904/48f5105f3ddcd7567f1105eb2ce12ecc.jpg"/>
+						</a>
+						</span>
+						<a href="#" class="left_3">
+							<img src="http://img.zbird.cn/picdb/555/904/dc38df7a8b40b8ef6a1480bebcbb2ec6.jpg"/>
+						</a>
+					</li>
+					<li>
+						<span>
+						<a href="#" class="left_1">
+							<img src="http://im0.zbird.cn/picdb/555/904/4638fe6d50bf7aa4076a4cc18e6e4f7e.jpg"/>
+						</a>
+						<a href="#" class="left_2">
+							<img src="http://im1.zbird.cn/picdb/555/904/48f5105f3ddcd7567f1105eb2ce12ecc.jpg"/>
+						</a>
+						</span>
+						<a href="#" class="left_3">
+							<img src="http://img.zbird.cn/picdb/555/904/dc38df7a8b40b8ef6a1480bebcbb2ec6.jpg"/>
+						</a>
+					</li>
+				</ul>				
+			</div>
+		</div>
+		<div id="bg6">
+			<div class="layout">
+				
+			</div>
+		</div>
+		<div id="bg7">
+			<div class="layout">
+				<a class="bg7_1" href="#"></a>
+				<a class="bg7_2" href="#"></a>
+			</div>
+		</div>
+		<div id="bg8">
+			<div class="layout">
+				<a class="bg8_1" href="#"></a>
+				<a class="bg8_2" href="#"></a>
+				<a class="bg8_3" href="#"></a>
+				<a class="bg8_4" href="#"></a>
+			</div>
+		</div>
+		<dl class="bg9 layout">
+			<dt>
+				<h2>热门商品</h2>
+				<a href="#">
+					查看更多
+					<i class="iconfont icon-addition">
+					
+					</i>
+				</a>
+			</dt>
+			<dd class="box1">
+				<ul id="box1">	
+				</ul>
+			</dd>
+		</dl>
+		<dl class="bg9 layout">
+			<dt>
+				<h2>精品配键</h2>
+				<a href="#">
+					查看更多
+					<i class="iconfont icon-addition">
+					
+					</i>
+				</a>
+			</dt>
+			<dd class="box1">
+				<ul id="box2">	
+				</ul>
+			</dd>
+		</dl>
+		<div id="bg10">
+			<div class="layout">
+				<a class="bg10_1" href="#"></a>
+				<a class="bg10_2" href="#"></a>
+				<a class="bg10_3" href="#"></a>
+			</div>
+		</div>
+		<div id="bg11">
+			<div class="layout">
+				<a class="bg11_1" href="#"></a>
+				<a class="bg11_2" href="#"></a>
+				<a class="bg11_3" href="#"></a>
+				<a class="bg11_4" href="#"></a>
+			</div>
+		</div>
+		<div id="bg12">
+			<div class="layout">
+				<a class="bg12_1" href="#"></a>
+				<a class="bg12_1" href="#"></a>
+				<a class="bg12_1" href="#"></a>
+				<a class="bg12_1" href="#"></a>
+			</div>
+		</div>
+		<div id="bg13">
+			<div class="layout"></div>
+		</div>
+		<div id="db">
+			<a href="#" class="db_top"></a>
+			<div class="left_c">
+				<div class="right">
+					<div class="_t">
+						<strong>预约进店</strong>
+					</div>
+					<input type="text" name="" id="shouji" value="请输入手机号"/>
+					<div class="city">
+						请选择体验中心
+						<span>
+							▼
+						</span>
+					</div>
+					<a href="#">立即预约进店</a>
+				</div>
+			</div>
+		</div>
+		<div id="footer-top"></div>
+		<div id="footer-center" class="layout">
+			<ul>
+				<li>
+					<a href="#"><img src="http://img.zbird.cn/picdb/555/539/9231548101812bfd076ae45cf786153f.jpg"/></a>
+				</li>
+				<li>
+					<a href="#"><img src="http://img.zbird.cn/picdb/555/539/b4f7bcad6c452f24dc09bed04a280f94.jpg"/></a>
+				</li>
+				<li>
+					<a href="#"><img src="http://img.zbird.cn/picdb/555/539/3b661807c1094c4801d51f072f705b72.jpg"/></a>
+				</li>
+			</ul>
+		</div>
+		<div id="footer-banner">
+			<ul>
+				<li style="width: 201px;">
+					<a href="#"  style="width: 201px;"></a>
+				</li>
+				<li style="width: 195px;">
+					<a href="#"  style="width: 195px;"></a>
+				</li>
+				<li style="width: 227px;">
+					<a href="#"  style="width: 227px;"></a>
+				</li>
+				<li style="width: 197px;">
+					<a href="#" style="width: 197px;"></a>
+				</li>
+				<li style="width: 198px;">
+					<a href="#"  style="width: 198px;"></a>
+				</li>
+				<li style="width: 162px;">
+					<a href="#" style="width: 162px;"></a>
+				</li>
+			</ul>
+		</div>
+		<div id="footer-nav">
+			<div class="foot-nav layout">
+				<a href="#" class="nav-left"></a>
+				<div class="nav-center">
+					<ul>
+						<li>
+							<span>
+								关于我们
+							</span>
+						</li>
+						<li>
+							<a href="#">品牌简介</a>
+						</li>
+						<li>
+							<a href="#">市场合作</a>
+						</li>
+						<li>
+							<a href="#">诚聘贤才</a>
+						</li>
+						<li>
+							<a href="#">联系我们</a>
+						</li>
+						<li>
+							<a href="#">商务联盟</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<span>
+								购物指南
+							</span>
+						</li>
+						<li>
+							<a href="#">购物流程</a>
+						</li>
+						<li>
+							<a href="#">订单处理时间</a>
+						</li>
+						<li>
+							<a href="#">订单查询</a>
+						</li>
+						<li>
+							<a href="#">特色商品说明</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<span>
+								支付方式
+							</span>
+						</li>
+						<li>
+							<a href="#">在线支付</a>
+						</li>
+						<li>
+							<a href="#">货到付款</a>
+						</li>
+						<li>
+							<a href="#">银行汇款</a>
+						</li>
+						<li>
+							<a href="#">海外汇款</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<span>
+								配送方式
+							</span>
+						</li>
+						<li>
+							<a href="#">体检中心自提</a>
+						</li>
+						<li>
+							<a href="#">全国免费配送</a>
+						</li>
+						<li>
+							<a href="#">海外配送</a>
+						</li>
+						<li>
+							<a href="#">货品包装</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<span>
+								售后服务
+							</span>
+						</li>
+						<li>
+							<a href="#">售后政策</a>
+						</li>
+						<li>
+							<a href="#">15天退换</a>
+						</li>
+						<li>
+							<a href="#">以小换大</a>
+						</li>
+						<li>
+							<a href="#">优惠换款</a>
+						</li>
+					</ul>
+					
+				</div>
+				<div class="nav-right">
+					<a href="#"></a>
+				</div>
+			</div>
+		</div>
+		<div id="footer-border">
+			<dt>
+				<p class="top">
+					<a href="#"></a>
+				</p>
+				<div>
+					<a href="#">网站地图</a><span>|</span>
+					<a href="#">友情链接</a><span>|</span>
+					<a href="#">在线投诉</a><span>|</span>
+					<a href="#">&nbsp;&nbsp;沪ICP备08011593号</a><span>|</span>
+					Copyright © 2002-2018 www.zbird.com  钻石小鸟  All Rights Reserved.
+				</div>
+				<p style="text-align: center;">上海溯天珠宝贸易有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;021-26011188</p>
+			</dt>
+			<dd class="img">
+				<a href="#"><img src="http://img.zbird.cn/ww3/pubheaderfooter/fot_certi.gif" width="110" height="35"/></a>
+				<a href="#"><img src="http://img.zbird.cn/ww3/pubheaderfooter/fot_certi_02.jpg" width="116" height="35"/></a>
+				<a href="#"><img src="http://img.zbird.cn/ww3/pubheaderfooter/fot_certi_03.jpg" width="115" height="35"/></a>
+				<a href="#" class="left"><img src="http://img.zbird.cn/ww3/pubheaderfooter/fot_certi_04.jpg" border="0"/></a>
+				<a href="#" style="display: inline-block;zoom: 1;position: relative;text-decoration: none;"><img src="http://img.zbird.cn/ww3/pubheaderfooter/picp_bg.png" width="115" height="35" alt="沪公公备" border="0"/>
+				<span align="center" class="jinghao">31010802001006</span></a>
+			</dd>
+		</div>
+		<div id="Pleft">
+			<a href="#" class="set_img"></a>
+			<span class="set_link1"></span>
+			<a href="#" class="set_link2">
+				<span class="cart">0</span>
+			</a>
+			<a href="#" class="set_link3"></a>
+			<a href="#" class="set_link4"></a>
+			<span class="set_link5">
+				<em></em>
+			</span>
+		</div>
+		<div id="gotop"></div>
+		<div id="xuanfu">
+			<a href="#" class="xuanfu_01"></a>
+			<a href="#" class="xuanfu_02"></a>
+			<a href="#" class="xuanfu_03"></a>
+			<a href="#" class="xuanfu_04"></a>
+			<a href="#" class="xuanfu_05"></a>
+		</div>
 	</body>
-	<!--<script src="../scripts/require.js" type="text/javascript" data-main= "index.js"></script>-->
+	<script src="../scripts/libs/require.js" type="text/javascript" data-main= "index.js"></script>
 
-	<script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.js"></script>
-	<link rel="stylesheet" type="text/css" href="../static/fonts/iconfont.css"/>
-	<script type="text/javascript">
-		
-		
-		$.ajax({
-			//这是要请求的本地地址,而实际上服务器收到请求会转发到拉勾网
-			//通过这种服务器代理的方式,在我自己的页面上一样可以请求到拉钩的数据
-			// pageNo=2 页码  pageSize=15 页条
-			url : "https://localhost:10002/listmore?pageNo=3&pageSize=15",
-			success : function(data){
-				console.log(data);
-			}
-		})
-	</script>
+	
 
 </html>

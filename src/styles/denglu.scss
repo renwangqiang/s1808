@@ -1,0 +1,771 @@
+    @import "mixins";
+    .layout {
+        width: 1180px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    input{
+        outline: none;
+    }
+    
+#header {
+    width: 100%;
+    height: 129px;
+    .header-top {
+        height: 34px;
+        background: #F8E3DF;
+        .header-top-border {
+            width: 1180px;
+            margin: 0 auto;
+            height: 34px;
+            .header-topL {
+                width: 210px;
+                height: 30px;
+                float: left;
+                //              background: royalblue;
+                h1 {
+                    height: 34px;
+                    line-height: 34px;
+                    float: left;
+                    margin-right: 12px;
+                }
+                a {
+                    display: block;
+                    float: left;
+                    width: 24px;
+                    height: 34px;
+                    line-height: 34px;
+                    color: #333;
+                }
+            }
+            .header-topR {
+                width: 430px;
+                height: 34px;
+                float: right;
+                //              margin-right: 25px;
+                //              background: #666666;
+                ul {
+                    height: 34px;
+                    li {
+                        margin-left: 12px;
+                        float: left;
+                        line-height: 34px;
+                        color: #333333;
+                        position: relative;
+                        img {
+                            display: block;
+                            float: left;
+                            margin-top: 7px;
+                            margin-right: 10px;
+                        }
+                        .header-topR-div a {
+                            float: left;
+                        }
+                        .header_shop {
+                            width: 20px;
+                            text-align: center;
+                            display: block;
+                            float: left;
+                            font-size: 13px;
+                            color: #ff8a81;
+                            font-weight: bold;
+                        }
+                        .header-topR3 {
+                            float: left;
+                            margin-right: 3px;
+                        }
+                        .header_arrow {
+                            width: 5px;
+                            height: 4px;
+                            float: left;
+                            margin-top: 15px;
+                            background: url(http://img.zbird.cn/ww3/pubheaderfooter/icon_drop.png) no-repeat left top;
+                        }
+                        .show1 {
+                            width: 240px;
+                            top: 33px;
+                            height: auto;
+                            max-height: 399px;
+                            min-height: 59px;
+                            overflow: hidden auto;
+                            display: none;
+                            line-height: 59px;
+                            border: 1px solid #f8a89c;
+                            background-color: #FFF;
+                            text-align: left;
+                            position: absolute;
+                            padding-bottom: 0px;
+                            left: -1px;
+                            .wu {
+                                width: 100%;
+                                height: 61px;
+                                line-height: 61px;
+                                text-align: center;
+                            }
+                        }
+                        .show3 {
+                            width: 70px;
+                            height: auto;
+                            overflow: hidden;
+                            position: absolute;
+                            padding-bottom: 0px;
+                            left: -1px;
+                            top: 32px;
+                            border: 1px solid #f8a89c;
+                            background-color: #FFF;
+                            text-align: left;
+                            //                          z-index: 50;
+                            display: none;
+                            a {
+                                width: 100%;
+                                height: 25px;
+                                line-height: 25px;
+                                display: block;
+                                color: #686767;
+                                padding-left: 6px;
+                                text-align: left;
+                                &:hover {
+                                    color: #FF8A81;
+                                }
+                            }
+                        }
+                        .show5 {
+                            width: 232px;
+                            height: 156px;
+                            position: absolute;
+                            top: 30px;
+                            left: -178px;
+                            z-index: 50;
+                            border: 1px solid #f8a89c;
+                            display: none;
+                            margin-left: 1px;
+                            img {
+                                margin-top: 0;
+                            }
+                        }
+                        .left5 {
+                            padding-left: 5px;
+                        }
+                    }
+                    .li1 {
+                        height: 34px;
+                        border: #F8E3DF solid 1px;
+                        border-bottom: none;
+                        padding-left: 5px;
+                        a {
+                            &:hover {
+                                color: #FF8A81;
+                            }
+                        }
+                        &:hover {
+                            background: #fff;
+                            border: #FF8A81 solid 1px;
+                            border-bottom: none;
+                            .show1 {
+                                display: block;
+                            }
+                        }
+                    }
+                    .li3 {
+                        border: #F8E3DF solid 1px;
+                        padding-left: 5px;
+                        padding-right: 7px;
+                        border-bottom: none;
+                        &:hover {
+                            background: #fff;
+                            border: #FF8A81 solid 1px;
+                            .show3 {
+                                border-top: none;
+                                padding-top: 5px;
+                                display: block;
+                            }
+                        }
+                    }
+                    .li5 {
+                        border: #F8E3DF solid 1px;
+                        margin-right: -2px;
+                        border-bottom: none;
+                        padding-left: 3px;
+                        box-sizing: border-box;
+                        &:hover {
+                            height: 50px;
+                            background: #FFFFFF;
+                            border: #FF8A81 solid 1px;
+                            .show5 {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .header-bor {
+        z-index: 20;
+        background: #fbf2f1;
+        .header-border {
+            height: 95px;
+            width: 1180px;
+            margin: 0 auto;
+            .header-middle1 {
+                display: block;
+                float: left;
+                width: 163px;
+                height: 95px;
+                //              background: #333333;
+                a {
+                    display: block;
+                    img {
+                        margin-left: 35px;
+                        margin-top: 28px;
+                    }
+                }
+            }
+            .header-middle2 {
+                width: 166px;
+                height: 15px;
+                overflow: hidden;
+                float: left;
+                margin-left: 48px;
+                margin-top: 41px;
+                background: url(http://img.zbird.cn/ww3/pubheaderfooter/pcslogan.png) no-repeat left top;
+            }
+            .header-middleR {
+                width: 312px;
+                height: 95px;
+                float: right;
+                .header-middleR-border {
+                    height: 60px;
+                    margin-top: 31px;
+                    //                  background: red;
+                    .header-middleR1 {
+                        form {
+                            width: 198px;
+                            input {
+                                width: 146px;
+                                height: 16px;
+                                border: none;
+                                color: #999;
+                                font-size: 12px;
+                                line-height: 16px;
+                                padding: 7px 0 7px 10px;
+                                margin: 0;
+                                float: left;
+                                border-top: 1px solid #ccc;
+                                border-left: 1px solid #ccc;
+                                border-bottom: 1px solid #ccc;
+                            }
+                        }
+                        a {
+                            width: 40px;
+                            height: 30px;
+                            float: left;
+                            display: block;
+                            overflow: hidden;
+                            background: url(http://img.zbird.cn/ww3/pubheaderfooter/icon_ser.jpg) no-repeat left top!important;
+                            color: #fff !important;
+                            line-height: 30px;
+                            border-top: 1px solid #ccc;
+                            border-right: 1px solid #ccc;
+                            border-bottom: 1px solid #ccc;
+                        }
+                    }
+                    .yuyue {
+                        float: left;
+                        background: url(http://img.zbird.cn/ww3/pubheaderfooter/header_btn.jpg) center no-repeat;
+                        margin-left: 16px;
+                        width: 96px;
+                        height: 32px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#nav {
+    height: 33px;
+    background: #909090;
+    position: relative;
+    .nav-center {
+        width: 1180px;
+        margin: 0 auto;
+        .navL {
+            width: 679px;
+            float: left;
+            
+            ul {
+                li {
+                    float: left;
+                    width: 97px;
+                    text-align: center;
+                    line-height: 33px;
+                    
+                    &:hover {
+                        background: #FDB2A4;
+                        cursor: pointer;
+                        
+                    }
+                    a {
+                        font-size: 12px;
+                        color: #FFFFFF;
+                    }
+                   
+                }
+
+                .active {
+                    background: #FDB2A4;
+                }
+            }
+        }
+        .navR {
+            width: 291px;
+            float: right;
+            li {
+                float: left;
+                width: 97px;
+                text-align: center;
+                line-height: 33px;
+                &:hover {
+                    background: #FDB2A4;
+                    cursor: pointer;
+                }
+                a {
+                    font-size: 12px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+    
+}
+
+    /*--------------------登录-----------------*/
+    
+    #bg_new {
+        background: url(http://img.zbird.cn/ww3/auth/auth_bg_new.jpg) no-repeat center top;
+        width: 100%;
+        height: 601px;
+        /*overflow: hidden;*/
+        clear: both;
+        .layout {
+            height: 601px;
+            .login-r {
+                width: 452px;
+                height: 636px;
+                float: right;
+                overflow: hidden;
+                position: relative;
+                .main {
+                    float: left;
+                    width: 100%;
+                    height: 510px;
+                    position: relative;
+                    overflow: hidden;
+                    background: url(http://img.zbird.cn/ww3/auth/auth_main_login.jpg) no-repeat 38px 130px;
+                    .text1 {
+                        width: auto;
+                        height: 20px;
+                        position: absolute;
+                        left: 38px;
+                        top: 95px;
+                        color: #000;
+                        font-family: "宋体";
+                        font-size: 20px;
+                    }
+                    .jihuo {
+                        width: auto;
+                        height: 20px;
+                        position: absolute;
+                        right: 50px;
+                        top: 102px;
+                        color: #333;
+                        &:hover a {
+                            color: #FF8A81;
+                        }
+                    }
+                    #from-login {
+                        position: absolute;
+                        top: 152px;
+                        width: 450px;
+                        height: 210px;
+                        ul {
+                            text-align: left;
+                            margin: 24px 0 0 0;
+                            padding-top: 1px;
+                            input {
+                                outline: none;
+                                border: none;
+                            }
+                            li {
+                                list-style-position: outside;
+                                padding-left: 78px;
+                                text-align: left;
+                                font-size: 14px;
+                                color: #999999;
+                                height: 34px;
+                                line-height: 34px;
+                                overflow: hidden;
+                                .inputStyle01 {
+                                    font-size: 12px;
+                                    color: #333333;
+                                    height: 34px;
+                                    line-height: normal;
+                                    line-height: 34px\9;
+                                    padding-left: 16px;
+                                    width: 267px;
+                                    margin: 0;
+                                    text-align: left;
+                                    overflow: hidden;
+                                    font-family: Arial, '宋体';
+                                    border: none;
+                                }
+                            }
+                            .tips {
+                                height: 22px;
+                                width: 310px;
+                                font-size: 12px;
+                                color: #666666;
+                                line-height: 22px;
+                                overflow: hidden;
+                            }
+                            .aotologin {
+                                height: 20px;
+                                width: 360px;
+                                padding: 0;
+                                padding-top: 2px;
+                                font-size: 12px;
+                                font-family: "宋体";
+                                color: #666666;
+                                line-height: 16px;
+                                overflow: hidden;
+                                #login_phase {
+                                    width: 13px;
+                                    height: 13px;
+                                    float: left;
+                                    padding: 0;
+                                    margin-right: 10px;
+                                    margin-top: 2px;
+                                    margin-left: 77px;
+                                    cursor: pointer;
+                                    border: none;
+                                    overflow: hidden;
+                                    background: #FFFFFF url(http://img.zbird.cn/ww3/auth/login_phase.jpg) no-repeat left top;
+                                }
+                                span {
+                                    font-family: "宋体";
+                                    float: left;
+                                    color: #666666;
+                                }
+                                a {
+                                    font-family: "宋体";
+                                    color: #666666;
+                                    float: right;
+                                    text-decoration: none;
+                                }
+                            }
+                            .clearHeight {
+                                width: 100%;
+                                height: 15px;
+                                overflow: hidden;
+                                clear: both;
+                            }
+                            .sumbit {
+                                height: 40px;
+                                width: 285px;
+                                padding: 0;
+                                font-size: 12px;
+                                margin-left: 77px;
+                                color: #666666;
+                                line-height: 40px;
+                                overflow: hidden;
+                                #btn {
+                                    width: 283px;
+                                    height: 34px;
+                                    line-height: 34px;
+                                    text-align: center;
+                                    display: block;
+                                    padding: 0;
+                                    color: #fff;
+                                    margin: 0 auto;
+                                    background: #ff8a81;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                    .height {
+                        width: 100%;
+                        height: 45px;
+                        overflow: hidden;
+                        position: absolute;
+                        top: 362px;
+                        clear: both;
+                    }
+                    .dianji {
+                        width: 452px;
+                        position: absolute;
+                        top: 430px;
+                        left: 50px;
+                            .qq,
+                            .wx,
+                            .sina,
+                            .zfb {
+                                width: 46px;
+                                height: 46px;
+                                float: left;
+                                display: block;
+                                margin-left: 32px;
+                            }
+                            .qq{
+                                background: url(http://img.zbird.cn/ww3/auth/qq-btn.jpg) no-repeat left top;
+                            }
+                            .wx {
+                                background: url(http://img.zbird.cn/ww3/auth/weixin-btn.jpg) no-repeat left top;
+                            }
+                            .sina {
+                                background: url(http://img.zbird.cn/ww3/auth/sina-btn.jpg) no-repeat left top;
+                            }
+                            .zfb {
+                                background: url(http://img.zbird.cn/ww3/auth/zhifubao-btn.jpg) no-repeat left top;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*---------------底部------------*/
+    
+    #footer-banner {
+        height: 66px;
+        background: #fdf2ec;
+        ul {
+            width: 1180px;
+            height: 66px;
+            margin: 0 auto;
+            background: url(http://img.zbird.cn/ww3/pubheaderfooter/footer_lnks.jpg) no-repeat;
+            li {
+                float: left;
+                height: 66px;
+                a {
+                    display: block;
+                    height: 66px;
+                }
+            }
+        }
+    }
+    
+    #footer-nav {
+        height: auto;
+        overflow: hidden;
+        background: #fdf2ec;
+        clear: both;
+        .foot-nav {
+            height: 160px;
+            position: relative;
+            .nav-left {
+                width: 85px;
+                height: 90px;
+                float: left;
+                margin-left: 30px;
+                margin-top: 44px;
+                display: block;
+                background: url(http://img.zbird.cn/ww3/pubheaderfooter/logo85x90.jpg) no-repeat;
+            }
+            .nav-center {
+                float: left;
+                margin-top: 37px;
+                margin-left: 82px;
+                ul {
+                    width: 144px;
+                    height: auto;
+                    height: 133px;
+                    /*overflow: hidden;*/
+                    float: left;
+                    li {
+                        float: left;
+                        span {
+                            width: 96px;
+                            height: 23px;
+                            display: block;
+                            color: #666666;
+                            font-size: 12px;
+                            text-align: left;
+                        }
+                        a {
+                            width: 96px;
+                            line-height: 22px;
+                            color: #999999;
+                            display: block;
+                            text-align: left;
+                            &:hover {
+                                color: #FF8A81;
+                            }
+                        }
+                    }
+                }
+            }
+            .nav-right {
+                width: 214px;
+                height: 120px;
+                float: right;
+                margin-top: 30px;
+                margin-left: 6px;
+                background: url(http://img.zbird.cn/ww3/pubheaderfooter/web_code.jpg) no-repeat;
+                position: relative;
+                a {
+                    width: 188px;
+                    right: 0px;
+                }
+            }
+        }
+    }
+    
+    #footer-border {
+        background: #fdf2ec;
+        dt {
+            width: 1180px;
+            margin: 0 auto;
+            text-align: left;
+            color: #999;
+            overflow: hidden;
+            .top {
+                text-align: center;
+                padding: 21px 0;
+                a {
+                    margin-left: 46px;
+                    background: url(http://img.zbird.cn/ww3/pubheaderfooter/fot_consult.jpg) left center no-repeat;
+                    width: 488px;
+                    height: 60px;
+                    display: inline-block;
+                }
+            }
+            div {
+                width: 1180px;
+                height: auto;
+                overflow: hidden;
+                margin: 0 auto;
+                line-height: 36px;
+                text-align: center;
+                a {
+                    line-height: 33px;
+                    margin: 0;
+                    padding: 0;
+                    color: #999;
+                    text-decoration: none;
+                    span {
+                        padding: 0 8px 0 10px;
+                    }
+                }
+            }
+        }
+        dd {
+            width: 612px;
+            margin: 0 auto;
+            padding-bottom: 90px;
+            color: #9FB1BA;
+            padding-left: 47px;
+            padding-top: 13px;
+            font-size: 0;
+            a {
+                img {
+                    padding: 0;
+                    margin: 0;
+                    border: 0;
+                }
+                .jinghao {
+                    transform: scale(0.65);
+                    font-size: 6px;
+                    color: #001b75;
+                    padding: 0;
+                    margin: 0;
+                    text-decoration: none;
+                    top: 20px;
+                    left: 26px;
+                    position: absolute;
+                    cursor: pointer;
+                    display: block;
+                }
+            }
+            .left {
+                margin-right: 5px;
+            }
+        }
+    }
+    
+    #Pleft {
+        position: fixed;
+        top: 32%;
+        right: 0;
+        width: 67px;
+        .set_img {
+            background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/img.png) left center no-repeat;
+            width: 88px;
+            height: 95px;
+            display: block;
+            position: absolute;
+            right: 0;
+            top: -94px;
+        }
+        .set_link1,
+        .set_link2,
+        .set_link3,
+        .set_link4,
+        .set_link5,
+        {
+            width: 67px;
+            height: 67px;
+            display: block;
+            margin-bottom: 1px;
+        }
+        .set_link1 {
+            background: red url(http://img.zbird.cn/ww3/pubheaderfooter/service/1.gif) left center no-repeat;
+            position: relative;
+            &:hover {
+                background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/1_2.gif) left center no-repeat;
+            }
+        }
+        .set_link2 {
+            background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/2.jpg) left center no-repeat;
+            text-align: center;
+            &:hover {
+                background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/2_2.jpg) left center no-repeat;
+            }
+            span {
+                color: #fff;
+                display: inline-block;
+                padding: 17px 0 0 0;
+            }
+        }
+        .set_link3 {
+            background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/3.jpg) left center no-repeat;
+            &:hover {
+                background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/3_2.jpg) left center no-repeat;
+            }
+        }
+        .set_link4 {
+            background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/4.jpg) left center no-repeat;
+            &:hover {
+                background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/4_2.jpg) left center no-repeat;
+            }
+        }
+        .set_link5 {
+            background: url(http://img.zbird.cn/ww3/pubheaderfooter/service/5.jpg) left center no-repeat;
+            position: relative;
+        }
+    }
+    
+    #gotop {
+        right: 15px;
+        bottom: 15px;
+        overflow: hidden;
+        position: fixed;
+        width: 40px;
+        height: 40px;
+        z-index: 1002;
+        background: url(http://img.zbird.cn/ww3/header/s_totop.jpg);
+        background-position: 0px -40px;
+        //  display: none;
+        cursor: pointer;
+    }
