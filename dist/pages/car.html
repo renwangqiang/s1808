@@ -4,8 +4,9 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
-		<link rel="stylesheet" type="text/css" href="../styles/lie.css" />
+		<link rel="stylesheet" type="text/css" href="../styles/car.css" />
 		<link rel="stylesheet" type="text/css" href="../styles/public.css" />
+		<link rel="stylesheet" type="text/css" href="../static/fonts/iconfont.css" />
 	</head>
 
 	<body>
@@ -15,16 +16,18 @@
 			<div class="header-top">
 				<div class="header-top-border">
 					<div class="header-topL">
-						<h1>欢迎进入钻石小鸟官网</h1>
-						<a style="margin: 0 10px 0 10px" href="denglu.html">登录</a>
-						<a style="margin-left: 10px;" href="zhuce.html">注册</a>
+						<h1>微信用户XXX</h1>
+						<span>,晚上好，您是</span>
+						<span class="titcolor">普通</span>
+						<span style="margin-right: 5px;">会员</span>
+						<a style="margin-left: 10px;" href="zhuce.html">退出登录</a>
 					</div>
 					<div class="header-topR">
 						<ul>
 							<li class="li1" style="width: 105px;">
 								<img src="http://img.zbird.cn/ww3/pubheaderfooter/header_box.png" />
 								<div class="header-topR-div">
-									<a href="https://localhost:8000/pages/car.html">购物车</a>
+									<a href="#">购物车</a>
 									<span class="header_shop">0</span>
 									<span class="header_arrow"></span>
 								</div>
@@ -71,53 +74,137 @@
 
 					</div>
 					<div class="header-middleR">
-						<div class="header-middleR-border">
-							<div class="header-middleR1">
-								<form>
-									<input type="text" name="txt" id="txt" value="" placeholder="戒托" />
-									<a href="#">a</a>
-								</form>
+						<img src="http://img.zbird.cn/ww3/shopcar/shopcar_sanbu_1.png" style="margin-top: 16px;margin-right: 19px; float: left;" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--详情-->
+		<!--购物车中无商品-->
+		<div class="gou" style="display: none;">
+			<div class="h-60"></div>
+			<div class="shopcar layout">
+				<div class="shop-R">
+					<div class="span01">我的购物车</div>
+					<div class="spanh"></div>
+					<div class="span02">添加商品，将喜爱的宝贝收入囊中吧！</div>
+					<div class="spanh-38" style="height: 38px;"></div>
+					<a href="https://localhost:8000/pages/lie.html" class="deng">去购物</a>
+					<a href="https://localhost:8000/pages/index.html" class="shou">去首页</a>
+				</div>
+			</div>
+			<div class="h-60"></div>
+		</div>
+
+		<!--购物车中有商品-->
+		<div class="gou1" style="display: none;">
+
+			<table class="top">
+				<tbody>
+					<tr>
+						<td class="xuanze">
+							<div class="ssbox">
+								<div class="mz-checkbox">
+
+								</div>
+								<span class="span01">全选</span>
 							</div>
+						</td>
+						<td class="price">单价(元)</td>
+						<td class="number">数量</td>
+						<td class="prices">小计(元)</td>
+						<td class="ctrl">编辑</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="car-header">
+				<div class="sboxs">
+					<div class="mz-checkbox">
 
-							<a href="#" class="yuyue"></a>
+					</div>
+					<span class="span01">魅族</span>
+				</div>
+			</div>
+			
+			
+			
+			<table class="car-body">
+				<tbody>
+				<!--<tr class="car-product">
+					<td class="car-col-select">
+						<div class="mz-checkbox">
 
+						</div>
+						<a href="#"><img src="https://openfile.meizu.com/group1/M00/06/AC/Cgbj0VujaMOAFzUFAARRWnHvM84529.png@120x120.png" /></a>
+						<a href="#">
+							<p>魅族v8高配版</p>
+						</a>
+					</td>
+					<td class="car-col-price">
+						<p class="iconfont icon-qian">1800.00</p>
+					</td>
+					<td class="car-col-number">
+						<div class="box">
+							<div class="box1">
+								<div class="box11">
+									<div class="jian">
+										-
+									</div>
+									<div class="num" style="width: 37px;">
+										<input type="text" name="" id="" value="1" style="width: 20px;" />
+									</div>
+									<div class="jia">
+										+
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</td>
+					<td class="car-xiaoji">
+						<span class="iconfont icon-qian">1800.00</span>
+					</td>
+					<td class="caozuo">
+						<a href="#">删除</a>
+					</td>
+				</tr>-->
+				</tbody>
+			</table>
+
+
+
+			<div class="car-footer">
+				<div class="f-c">
+					<div class="car-footer-l">
+						<div class="sboxs">
+							<div class="mz-checkbox">
+
+							</div>
+							<span class="span01">全选</span>
+						</div>
+
+						<span class="remove">删除选中的商品</span>
+						<span class="car-footer-count">
+							共
+							<span class="car-footer-num">xx</span> 件商品，已选择
+						<span class="car-footer-num blue">xx</span> 件
+						</span>
+					</div>
+					<div class="car-footer-r">
+						<span class="car-footer-sum">
+							已优惠
+							<span class="car-footer-num red">0.00</span> 元，合计（不含运费）：
+						<span class="car-footer-total">0.00</span> 元
+						</span>
+						<div class="jiesuan">
+							<a href="#" class="jiecar">去结算</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-<!--详情-->	
-<dl class="bg9">
-			<dt>
-				<h2>热门商品</h2>
-				<a href="#">
-					查看更多
-					<i class="iconfont icon-addition">
-					
-					</i>
-				</a>
-			</dt>
-			<dd class="box1">
-				<ul id="box1">	
-				</ul>
-			</dd>
-		</dl>
-		<dl class="bg9">
-			<dt>
-				<h2>精品配键</h2>
-				<a href="#">
-					查看更多
-					<i class="iconfont icon-addition">
-					
-					</i>
-				</a>
-			</dt>
-			<dd class="box1">
-				<ul id="box2">	
-				</ul>
-			</dd>
-		</dl>
-<!--结束-->
+
+		<!--结束-->
 		<div id="footer-banner">
 			<ul>
 				<li style="width: 201px;">
@@ -285,7 +372,8 @@
 			</span>
 		</div>
 	</body>
-	<script src="../scripts/libs/require.js" type="text/javascript" data-main= "lie.js"></script>
+	<script src="../scripts/libs/require.js" type="text/javascript" data-main="car.js"></script>
 	<!--<script src="../scripts/libs/jquery.js" type="text/javascript" charset="utf-8"></script>-->
 	<!--<script src="../scripts/libs/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>-->
+
 </html>

@@ -4,6 +4,7 @@ requirejs.config({
 		"jquery":"../scripts/libs/jquery.min",
 		"swiper":"../scripts/libs/swiper.min",
 		"common":"../scripts/common",
-		"fontscroll":"../scripts/fontscroll"
+		"fontscroll":"../scripts/fontscroll",
+		"jquery.cookie":"../scripts/libs/jquery.cookie"
 	}
 })

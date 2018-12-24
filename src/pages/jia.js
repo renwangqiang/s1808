@@ -2,37 +2,27 @@ require(["../scripts/config.js"], function() {
 	require(["common", "jquery", "swiper", "fontscroll"], function(com, $, swiper) {
 		
 		
-		var mySwiper = new swiper('.swiper-container',{
-			//无缝连接
-			 loop : true,
-			//鼠标滚动
-			 /*mousewheel: true,*/
-			//键盘
-			 /*keyboard : true,*/
-			//自动切换
-			autoplay: true,
-			/*effect : 'cube',*/
-			//左右按钮
-			 navigation: {
-			      nextEl: '.swiper-button-next',
-			      prevEl: '.swiper-button-prev',
-    		},
-    		//小按钮（分页器）
-    		pagination: {
-   				el: '.swiper-pagination',
-   				//点击按钮切换
-   				clickable :true,
-			},
-			
-			
-	})
-			//当鼠标移进去时，停止播放
-				$(".swiper-container").hover(function(){
-					mySwiper.autoplay.stop();
-				},function(){
-					//鼠标移进去时，开始
-					mySwiper.autoplay.start();
-				})
+		//商品小图轮播
+			var swiper1 = new swiper('.goodssmallbox', {
+			    slidesPerView:4,
+			    spaceBetween: 0,
+			    freeMode: true,
+	    		navigation: {
+				  nextEl: '.right_button',
+				  prevEl: '.left_button',
+				},
+	  		});
+		// 点击每一个上面图片变换
+		var imgChan=document.querySelector(".pic_bg img");
+		var swipers=Array.from(document.querySelectorAll(".goodssmallbox_pic .swiper-slide"));
+		var bigbox_bg=document.querySelector(".bigbox_bg")
+		swipers.forEach(function(item,index){
+			item.onclick=()=>{
+				imgChan.src=item.children[0].src;
+				bigbox_bg.src=item.children[0].src;
+			}
+		})
+
 
 		
 	})

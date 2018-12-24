@@ -1,4 +1,18 @@
 @charset "UTF-8";
+.mz-checkbox {
+  display: inline-block;
+  vertical-align: middle;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #BDBDBD;
+  border-radius: 2px;
+  background-color: #fff;
+  text-align: center;
+  font-size: 10px;
+  line-height: 17px;
+  cursor: pointer;
+  margin-right: 5px; }
+
 .layout {
   width: 1180px;
   margin: 0 auto;
